@@ -1,0 +1,41 @@
+# Ignore everything by default
+/*
+
+# Allow these at the repo root
+!/.gitignore
+!/README.md
+!/LICENSE
+!/CITATION.cff
+
+# Allow the project folder itself
+!/sepm_project/
+
+# Allow ONLY scripts and figures
+!/sepm_project/scripts/
+!/sepm_project/scripts/**
+!/sepm_project/figures/
+!/sepm_project/figures/**
+
+# Explicitly ignore data (even if it exists)
+sepm_project/data/
+
+# --- ignore common junk inside allowed folders ---
+sepm_project/**/__pycache__/
+sepm_project/**/*.py[cod]
+sepm_project/**/*.pkl
+sepm_project/**/*.joblib
+sepm_project/**/*.pt
+sepm_project/**/*.pth
+sepm_project/**/*.h5
+sepm_project/**/*.ckpt
+sepm_project/**/*.onnx
+sepm_project/**/*.npz
+sepm_project/**/*.npy
+sepm_project/**/*.log
+
+sepm_project/**/.vscode/
+sepm_project/**/.idea/
+sepm_project/**/*.iml
+sepm_project/**/.env
+sepm_project/**/.venv/
+sepm_project/**/venv/
