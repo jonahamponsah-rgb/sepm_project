@@ -1,0 +1,12 @@
+{
+  "source_versions": [
+    "a6b60e8b0aef8b292770e14e52a7b283e6986e42b293ebc1f63d28c857310149"
+  ],
+  "mode": "full",
+  "archives": 720,
+  "intended_repetition_ids_in_archives": 2000,
+  "completed_repetitions": 2000,
+  "invalid_draws_without_redraw": 0,
+  "missing_repetitions_no_archive_or_result": 0,
+  "expected_full_repetitions": 2000
+}
