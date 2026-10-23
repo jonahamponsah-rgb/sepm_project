@@ -1,0 +1,128 @@
+{
+  "status": "complete",
+  "dataset_name": "Pima Indians Diabetes",
+  "missing_policy": "zeros in Plasma, BloodPressure, SkinThickness, Insulin and BMI become NaN; training-partition iterative imputation",
+  "decision_threshold": 0.5,
+  "inner_selection_prediction_rule": "classifier native predict",
+  "baseline_gridsearch_prediction_rule": "classifier native predict via F1 scorer",
+  "outer_test_prediction_rule": "positive-class probability >= 0.5",
+  "selection_rule": "highest mean inner-validation F1; larger p on exact tie",
+  "label_mapping": {
+    "0": 0,
+    "1": 1
+  },
+  "missing_feature_entries": 652,
+  "missing_by_feature": {
+    "Pregnancies": 0,
+    "Plasma": 5,
+    "BloodPressure": 35,
+    "SkinThickness": 227,
+    "Insulin": 374,
+    "BMI": 11,
+    "DiabetesPedigreeFunction": 0,
+    "Age": 0
+  },
+  "dataset": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\data\\pima-indians-diabetes.csv",
+  "n_patients": 768,
+  "n_predictors": 8,
+  "seed": 30,
+  "outer_folds": 10,
+  "inner_folds": 5,
+  "random_repeats": 3,
+  "proportions": [
+    0.4,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    0.97,
+    0.98,
+    0.99,
+    1.0
+  ],
+  "tie_rule": "larger proportion on exact validation-F1 tie",
+  "selection": "percentile threshold plus class-presence safeguard",
+  "tuning": "baseline hyperparameters first, then fixed during proportion selection",
+  "hyperparameter_grids": {
+    "SVM": {
+      "C": [
+        5,
+        50,
+        100
+      ],
+      "kernel": [
+        "rbf",
+        "linear",
+        "poly"
+      ],
+      "gamma": [
+        "auto",
+        "scale"
+      ]
+    },
+    "Logistic Regression": {
+      "C": [
+        1,
+        10,
+        100
+      ]
+    },
+    "XGBoost": {
+      "n_estimators": [
+        50,
+        100,
+        150
+      ],
+      "learning_rate": [
+        0.2,
+        0.3
+      ],
+      "max_depth": [
+        null,
+        4
+      ]
+    },
+    "GBM": {
+      "n_estimators": [
+        50,
+        100,
+        150
+      ],
+      "learning_rate": [
+        0.2,
+        0.3
+      ],
+      "max_depth": [
+        1,
+        2
+      ]
+    },
+    "Random Forest": {
+      "n_estimators": [
+        50,
+        100,
+        150
+      ],
+      "max_depth": [
+        null,
+        4
+      ]
+    }
+  },
+  "python": "3.13.11",
+  "versions": {
+    "numpy": "2.4.2",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.1",
+    "shap": "0.48.0",
+    "xgboost": "3.1.2"
+  },
+  "total_seconds": 1419.0478312000014
+}
