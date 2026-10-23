@@ -1,0 +1,915 @@
+{
+  "note": "Hashes cover every packaged file except this manifest itself.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 141,
+      "sha256": "73aa678fb8992407fafa74de2323b2e194ccaa5003fe350a9cdde56c8aba5447"
+    },
+    {
+      "path": ".github/workflows/verify-results.yml",
+      "bytes": 332,
+      "sha256": "c85c896f57822778ad0a4586c1d08fa2bf9c8a3d6b496ce19ff1d8a980f2efe8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 150,
+      "sha256": "343834e9a4969604af2c27040caed10ff68ef98d0cd671a256bc8935c4d80ca1"
+    },
+    {
+      "path": "benchmark/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "benchmark/audit_tmc_sepm_chtc.py",
+      "bytes": 3436,
+      "sha256": "02be4e27f10096c128bef2074da7afb8ff2c64f7ee8c86cca2b311f34e8cef2d"
+    },
+    {
+      "path": "benchmark/chtc_fold_runner.py",
+      "bytes": 2386,
+      "sha256": "411f0984705c5a8ba2e99bf9a6761dc2271d0aaade36c9a41bff13b295683ad8"
+    },
+    {
+      "path": "benchmark/combine_sepm_tmc_results.py",
+      "bytes": 3510,
+      "sha256": "d95c4e360006598d1d73ae84f680a3c14d5b6bfc497af4e4af9b30e8b92d05dd"
+    },
+    {
+      "path": "benchmark/pilot_tmc_sepm.py",
+      "bytes": 24171,
+      "sha256": "1f1251ba1ada396fcf4bbba8cd12f72bed6b51fafff60491fd5ba0d1f62076b3"
+    },
+    {
+      "path": "benchmark/TMC_SEPM_README.md",
+      "bytes": 606,
+      "sha256": "9731384783bf56b53fedf5bbccf7441a517db38972d9dbe416df3949eff8601a"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 470,
+      "sha256": "297ef98c25a17b92d15f895780e0f6e4d04a6c586eafc6568cbab6549223fc88"
+    },
+    {
+      "path": "clinical/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "clinical/sepm_breast.py",
+      "bytes": 23002,
+      "sha256": "4fa04f3d8800f1e5a6540cf77575001b19bf314bfcd3e29326913248a788de6d"
+    },
+    {
+      "path": "clinical/sepm_cervical.py",
+      "bytes": 22157,
+      "sha256": "fe92af5960d5597d12ddc6ffeb4df261debe990e2ccdc24f379352811e748698"
+    },
+    {
+      "path": "clinical/sepm_diabetes.py",
+      "bytes": 23000,
+      "sha256": "10302024df2cae653e65cbaccc395e352f290bde6f28749cccbebce75183dfab"
+    },
+    {
+      "path": "clinical/sepm_haberman.py",
+      "bytes": 22507,
+      "sha256": "2188c058206881e94a867bbf81eec58a2c029feb948f17dbb3b9a81768d40a6a"
+    },
+    {
+      "path": "cluster/build_bundles.py",
+      "bytes": 995,
+      "sha256": "9f20f333691b8bbc79f6a22949f280624fc609c3104fe6ffa8956776802945bd"
+    },
+    {
+      "path": "cluster/container-reconstruction.def",
+      "bytes": 342,
+      "sha256": "f3ad3aa8184c7318c420989c68f50803a77707bb2ab6baf52f947fe2cc8be2f7"
+    },
+    {
+      "path": "cluster/README.md",
+      "bytes": 2629,
+      "sha256": "3f39eb0fae6833fc068df397b5e2d2f2b86ec4c928e0364c586f7b9fa36d6a8c"
+    },
+    {
+      "path": "cluster/simulation/jobs.txt",
+      "bytes": 12648,
+      "sha256": "c3867e6d8e3969a11ad1affafe3e752e7eb5cb0c01ec1f9dd7c5fce7d05d2a6d"
+    },
+    {
+      "path": "cluster/simulation/jobs_full.txt",
+      "bytes": 12648,
+      "sha256": "c3867e6d8e3969a11ad1affafe3e752e7eb5cb0c01ec1f9dd7c5fce7d05d2a6d"
+    },
+    {
+      "path": "cluster/simulation/jobs_smoke.txt",
+      "bytes": 17,
+      "sha256": "c73747985a1536f1688888c10d4cfa8dcdd753e3d154f6a72d14f0cebbd4c9a4"
+    },
+    {
+      "path": "cluster/simulation/run_simulation.sh",
+      "bytes": 750,
+      "sha256": "78bc5047609f5046b3b50d8ccc3db1cd673d75c174ffaebe6dce930ffe15851a"
+    },
+    {
+      "path": "cluster/simulation/simulation.sub",
+      "bytes": 684,
+      "sha256": "9d3c125d47c4f0776be220a124a95515f37062f9e7f1b42413b1a7cb10426ebe"
+    },
+    {
+      "path": "cluster/tmc/jobs.txt",
+      "bytes": 820,
+      "sha256": "a8f6492c8a3ac648e98a746edc4368dc91a37001bb74a67532f7dc9ea37cd9b3"
+    },
+    {
+      "path": "cluster/tmc/run_sepm_tmc.sh",
+      "bytes": 798,
+      "sha256": "52ac3410568ca541b66b8a70180c18aa04682df521c1a55db83c1b17bd4c2332"
+    },
+    {
+      "path": "cluster/tmc/sepm_tmc.sub",
+      "bytes": 689,
+      "sha256": "32df0c18458d63d3ca27b0c2631b826af213fb3f4d479daacfc6de06889d2406"
+    },
+    {
+      "path": "data/expected_sha256.json",
+      "bytes": 372,
+      "sha256": "b8d21105eab083ba5dc0bf53f9c20ef266c7f1635afbac23955a85e207b69697"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 1863,
+      "sha256": "ab94afb1546fa3f7a5e5c3c580e1f8c297ed2695afd8d28d8f0cb3309abb0db6"
+    },
+    {
+      "path": "LICENSE_STATUS.md",
+      "bytes": 361,
+      "sha256": "26dd5153fcb1f9e96da1c6b2f4fc7c8318d00e564ba9543366a47f386f385e27"
+    },
+    {
+      "path": "make_figures.py",
+      "bytes": 143,
+      "sha256": "aa88ec42d66793bc41e619932336a066941d9082a0f919c936dce59f22ddadaf"
+    },
+    {
+      "path": "PACKAGE_CONTENTS.txt",
+      "bytes": 8375,
+      "sha256": "e599c05ff9586b77c4efc5ba8b7ef22d7e4eceb8b17f34c40ef385c8843dc143"
+    },
+    {
+      "path": "PACKAGE_VALIDATION.json",
+      "bytes": 1092,
+      "sha256": "7b4eb2b5076f3f1a593bda492959a22ab56a2032c2a74db13a673712364e2d52"
+    },
+    {
+      "path": "prepare_data.py",
+      "bytes": 1087,
+      "sha256": "6876856f4346ce88b18c2daeb3e5dad4b21770d32d966d4427848ac770159407"
+    },
+    {
+      "path": "provenance/benchmark_example_run_metadata.json",
+      "bytes": 2284,
+      "sha256": "4e19a80568ffa2a0f7b69cf68dd2dacd8afeae1e2ef0dd667342246624b081bd"
+    },
+    {
+      "path": "provenance/README.md",
+      "bytes": 1436,
+      "sha256": "8dcd807790ba454787fb50f442af0694f96094e3e4c05a5d93a7533b867286fd"
+    },
+    {
+      "path": "provenance/simulation_example_batch_metadata.json",
+      "bytes": 1201,
+      "sha256": "2d3dfc15714f670f0754f0f474b1d8c56b1da9c3f037392301f595dbb3fc5e6c"
+    },
+    {
+      "path": "provenance/source_files.json",
+      "bytes": 35646,
+      "sha256": "562ebb00c9047063a16a947b9e5a7908bb281af157f88fe223c8b21ec1a760fa"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7586,
+      "sha256": "9ff8c646794fdd0b700ce26cf2ca0f1b5b30099f85e78f22d981485433659ae9"
+    },
+    {
+      "path": "reporting/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reporting/draw_workflow.py",
+      "bytes": 6914,
+      "sha256": "b376551907246ba4374637db990ee5496636c7eada32359bf2b176ce3a881be4"
+    },
+    {
+      "path": "reporting/figures.py",
+      "bytes": 6538,
+      "sha256": "6b32e328c1e193dd6b711bfdc8f76fe1955bfba03c3e3073a528e0794ff00867"
+    },
+    {
+      "path": "reporting/metrics.py",
+      "bytes": 1128,
+      "sha256": "62d3d5845affd6d714b6bb646a66bb8938bea5ac2afa6f8f559a5e98450bbbbc"
+    },
+    {
+      "path": "reporting/reproduce.py",
+      "bytes": 15212,
+      "sha256": "5d913e916ec044456e655b9c30c5f9912de2a65295043c4be641175f2f8ccbd7"
+    },
+    {
+      "path": "reporting/statistics.py",
+      "bytes": 2219,
+      "sha256": "f9fb5340a991baa07fcdce28a4f944ec8c5042fdd8ce3f9f3ff8f8607ff2032e"
+    },
+    {
+      "path": "reporting/workflow_assets/Figure_caption.txt",
+      "bytes": 724,
+      "sha256": "2e1161febe8d676b12ec534c3de2221f9397f1bf1e54c1e045905886745b85ee"
+    },
+    {
+      "path": "reporting/workflow_assets/SEPM_workflow.png",
+      "bytes": 623844,
+      "sha256": "9929e3cf1a03d11c2ecf46dc4e98db205733ec2d7b03e5686bad81f898b8700d"
+    },
+    {
+      "path": "reporting/workflow_assets/SEPM_workflow.svg",
+      "bytes": 33151,
+      "sha256": "a70e8e2489ea80642de61464e76557462684145cd2efffe8580898d25610c170"
+    },
+    {
+      "path": "reproduce_results.py",
+      "bytes": 144,
+      "sha256": "2bd2f15fad73185c8af9b2bc6d94d58bcdd0cc6ac796e40bdcf95073c218c9a6"
+    },
+    {
+      "path": "requirements-clinical.txt",
+      "bytes": 89,
+      "sha256": "d5646ecace345e9667d4564dc65ef4f1ffe01fc3a882ddcedf925dbdbfef91d4"
+    },
+    {
+      "path": "requirements-cluster.txt",
+      "bytes": 62,
+      "sha256": "60aacc28aefe9a02bcfc61dde09f6c2c653dceaeae094a2c2189e8076b9a1033"
+    },
+    {
+      "path": "requirements-figures.txt",
+      "bytes": 36,
+      "sha256": "a99e882afd25913afaf677842b5a6e0bce9ad87488727f1787ca574ec6dc1829"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 27,
+      "sha256": "2732068fa4b7babb6293674af9d8f96451b7127aad795aea04963743cf893ae7"
+    },
+    {
+      "path": "results/benchmark/chtc_job_specs.txt",
+      "bytes": 1510,
+      "sha256": "8629aa54eeffa1f06b34e9e0e4f58424edfe7a0783b02cd3ce7d0c8d106ad15a"
+    },
+    {
+      "path": "results/benchmark/combined_fold_results.csv",
+      "bytes": 56216,
+      "sha256": "536f6a9859fc1862001ce7356271296bd0db5cfe04316fdcc6da0761a09172fd"
+    },
+    {
+      "path": "results/benchmark/combined_timings.csv",
+      "bytes": 25706,
+      "sha256": "b36dda53709eb1cfdfdadc57c4623065df95365305b958e049dc218e1d9318f8"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_breast_fold_0_benchmark.tar.gz",
+      "bytes": 76852,
+      "sha256": "a751841f808e0971eb3bec7fe4651d324800497d62dd07d51980ee249b6fe6fb"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_breast_fold_1_benchmark.tar.gz",
+      "bytes": 78948,
+      "sha256": "185120c5939e00dca1e0ab8b2c008b2c1cd547e0286b2d9cc9aef3dc3a31c25e"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_breast_fold_2_benchmark.tar.gz",
+      "bytes": 76153,
+      "sha256": "313aa9c6dd5018e13bfcdf2bc6b4ff3a9ce5eeb7623831bcfb900aa802021f55"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_breast_fold_3_benchmark.tar.gz",
+      "bytes": 78300,
+      "sha256": "8bb9c8f78def9b633bb933cdc0b558c652d592339a2613512fe7b7f40a21166a"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_breast_fold_4_benchmark.tar.gz",
+      "bytes": 76489,
+      "sha256": "2d59708a526dc1288ff900be4cb2c8cc96bbc158121e7bc4b10822ec050beadf"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_breast_fold_5_benchmark.tar.gz",
+      "bytes": 79479,
+      "sha256": "8bde7931e69fdcfad3ef9f5d059f600f8d2dadff4ac5146fd1d81a4369cebcb7"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_breast_fold_6_benchmark.tar.gz",
+      "bytes": 77861,
+      "sha256": "7590df9d08c80fce7a944011bf0514bb4169a8a15921820b99ab5ff3ec15074f"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_breast_fold_7_benchmark.tar.gz",
+      "bytes": 77998,
+      "sha256": "9403b9e6af969138e3b612cd3d00fba1ac9802e898df84888c5d9b55d461b04f"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_breast_fold_8_benchmark.tar.gz",
+      "bytes": 78299,
+      "sha256": "4a6c771716eae71710c77717197e116a7c4a5c34d1e09f3d3edea3c48dd6b3f4"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_breast_fold_9_benchmark.tar.gz",
+      "bytes": 78597,
+      "sha256": "ff871f90041d24ebee647f862e92f1ec8902f52fe11dffadc6ec0cf7068b562f"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_0_benchmark.tar.gz",
+      "bytes": 28412,
+      "sha256": "755a895f0e42713db364f3bb8a6c19bb13289b94cbc77d35594de9ad37c9f921"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_1_benchmark.tar.gz",
+      "bytes": 28247,
+      "sha256": "219f1a9894f045fc62a68e8d224f724d6cebadb891c376d60e60a4a89ed45709"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_2_benchmark.tar.gz",
+      "bytes": 28953,
+      "sha256": "272f2efd3883e6e403c1f2286e22b2acf99a40206b19c04ee9b60e8786c7a4cb"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_3_benchmark.tar.gz",
+      "bytes": 28718,
+      "sha256": "357293add8d86cb4fd3214ae7517c9ca9f4b0ebbef3d6a7d43636cdfd44c024d"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_4_benchmark.tar.gz",
+      "bytes": 29187,
+      "sha256": "d71c975cd83ceae8faaad83f48998895307a5971e5d258ad6e64f1bffd75f610"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_5_benchmark.tar.gz",
+      "bytes": 28867,
+      "sha256": "05bcf1f3c0580022cef2c1641278967689afeb11f579107d2e2136aa025cdc88"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_6_benchmark.tar.gz",
+      "bytes": 28801,
+      "sha256": "cfc0370d6fab92b094836579add868db28527e4fcc57ead3fa4d6a2fb42fa48a"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_7_benchmark.tar.gz",
+      "bytes": 29406,
+      "sha256": "6a67b774c3748c4ce39eaf9068b24e307a8f7d94dbcea17b72b2ef76aba3c3d0"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_8_benchmark.tar.gz",
+      "bytes": 27869,
+      "sha256": "d680e28cc5a82e5ba8dd7a9701062eb8549a99f28700403dac9641ebec7cd553"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_9_benchmark.tar.gz",
+      "bytes": 28924,
+      "sha256": "09d307ec33ebeb3611971f630dd4532edc1cb0febb4b5303c2120961311c58ce"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_0_benchmark.tar.gz",
+      "bytes": 187532,
+      "sha256": "d25ad6f4d2a36756f8613159a8b3c009b4e04b14b35b7db86460eafc826399ba"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_1_benchmark.tar.gz",
+      "bytes": 188926,
+      "sha256": "6f22e48d6453b64f601103fb9dea1498263cc900e660250a39cf489b7a7702d9"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_2_benchmark.tar.gz",
+      "bytes": 184364,
+      "sha256": "da84c91c76e0fee307fe68a878e30add0302ff107f3ec14afbdecda03b1b4255"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_3_benchmark.tar.gz",
+      "bytes": 188176,
+      "sha256": "dc934428f073631a9a919ee9f3688dc84067bf6fb93854be5f3e0733da9fd2b9"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_4_benchmark.tar.gz",
+      "bytes": 190579,
+      "sha256": "732c08eda4f6e2008b106cf424786b76382eb626c9cc6e9d01a79827deaf08f1"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_5_benchmark.tar.gz",
+      "bytes": 185515,
+      "sha256": "76e150e17dbbb88292725b19b6388a42126acbb2185fb71700348bb9d9f6905d"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_6_benchmark.tar.gz",
+      "bytes": 184163,
+      "sha256": "d1f583ee63e23d7002ef78a676dd4903e7e590d47187fdb2dd82f1a5f02d8e9a"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_7_benchmark.tar.gz",
+      "bytes": 182954,
+      "sha256": "f8e16f4a2552300df753353f65f6e57a31cb8b9a0fd75879a988b04556239a44"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_8_benchmark.tar.gz",
+      "bytes": 188993,
+      "sha256": "9906b1a1329bd9456653b699ab67d6d5e9f5d0874067a65285f7edcc0c2c14d0"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_9_benchmark.tar.gz",
+      "bytes": 184010,
+      "sha256": "0661ed3ffcbd013d8c2698bf2f6d50d5a2f0e34e5107722ee9560fda702bd20b"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_0_benchmark.tar.gz",
+      "bytes": 80693,
+      "sha256": "3b06e1fc8820f9830a20d5a673c34ebdda7f00656cd59093252abe649b92dc9a"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_1_benchmark.tar.gz",
+      "bytes": 85302,
+      "sha256": "49934321a9cf2e458205d1d9e4aa0f15f158d0913dd990c8c5213f9a3f24da8f"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_2_benchmark.tar.gz",
+      "bytes": 82294,
+      "sha256": "63f7b207a60b7d1560d3814e33250fab6370f4a12d5aa1809768e64e88d1eeb1"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_3_benchmark.tar.gz",
+      "bytes": 82012,
+      "sha256": "6369ce380c8b9e07d240fb48305f32c095984e965a53b7259f1062d43bc7b14e"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_4_benchmark.tar.gz",
+      "bytes": 83794,
+      "sha256": "645ada80ab66acbabaa69a4bda1c1689544574653cb9f324eb9f0ae573dde85d"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_5_benchmark.tar.gz",
+      "bytes": 81944,
+      "sha256": "6dd78b49002b749ca40f32b79b4a05e2baf2b4abbf423f9c0bb2f62ab0d3463e"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_6_benchmark.tar.gz",
+      "bytes": 84103,
+      "sha256": "2719982bab24bda4c73c5f138c6e8e6d2fe42033f76aecdfef3d0f7fc3393a89"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_7_benchmark.tar.gz",
+      "bytes": 80414,
+      "sha256": "441d17f3917354172bc603bd2ee7e3a972769d58daf655e7efb267b3aaedeab1"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_8_benchmark.tar.gz",
+      "bytes": 83387,
+      "sha256": "5acc5344464018e3f725151b3573b694e45183fa55516111dd35cabfcf80e702"
+    },
+    {
+      "path": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_9_benchmark.tar.gz",
+      "bytes": 80366,
+      "sha256": "2459584f9430f294a686fcd0e504896545a978fcd55643d1b2cae4fa69185594"
+    },
+    {
+      "path": "results/benchmark/summary.csv",
+      "bytes": 4968,
+      "sha256": "1ae10760c25aa98db475d7bf7397f6b1e4b934407d641e89673371cac3b19878"
+    },
+    {
+      "path": "results/benchmark/wilcoxon_holm_four_metrics.csv",
+      "bytes": 281,
+      "sha256": "0a2d18d1b71e86d15be8f4fb805c69e5d349eff9d104437c9b19ce2eee52754f"
+    },
+    {
+      "path": "results/clinical/breast/fold_means.csv",
+      "bytes": 13573,
+      "sha256": "e85aa53f44d8b48bb4ee983fbc1999b3d39434621ecf08f270b971fca5d76481"
+    },
+    {
+      "path": "results/clinical/breast/fold_results.csv",
+      "bytes": 43317,
+      "sha256": "ec070c04a571f0fdc5c1e96804e3c42f02496efdf8a72ebcbe947e96c8daadd1"
+    },
+    {
+      "path": "results/clinical/breast/fold_timings.csv",
+      "bytes": 5614,
+      "sha256": "03ad527448815295e2c376f9f8f64ac7ce3f85c03b8512e216d959ffdae4df8c"
+    },
+    {
+      "path": "results/clinical/breast/inner_selection.csv",
+      "bytes": 733212,
+      "sha256": "a0dd0b9b5250363ba0ce5b629932764d4b6783050a4ab526fb0b7ced83bf7c23"
+    },
+    {
+      "path": "results/clinical/breast/outer_predictions.csv",
+      "bytes": 356655,
+      "sha256": "8a57a170873909a000968adcc02073aee05638ce26daddf24a651827e2b285fd"
+    },
+    {
+      "path": "results/clinical/breast/run_metadata.json",
+      "bytes": 2724,
+      "sha256": "a37d63070133ace66ead959c0fdc106d9d275d54525d3d6ea639150294af3605"
+    },
+    {
+      "path": "results/clinical/breast/summary.csv",
+      "bytes": 2742,
+      "sha256": "71f32ba73ff597d04b64db9d57e3a479aaecc84995119b563f4b419c3145f38d"
+    },
+    {
+      "path": "results/clinical/cervical/fold_means.csv",
+      "bytes": 11542,
+      "sha256": "934d616034b8eec72155ae4b600a63a4a3e411e3286e198b62e3dcb18afc9cc4"
+    },
+    {
+      "path": "results/clinical/cervical/fold_results.csv",
+      "bytes": 39591,
+      "sha256": "0012f82409ec1442a94c0bf428fda85563296dd00673c43af0b26aa59b42c250"
+    },
+    {
+      "path": "results/clinical/cervical/fold_timings.csv",
+      "bytes": 5654,
+      "sha256": "09a44d2f2dcd9ca74248cb3e663029c96c6deeb87622d2595358911956b4127b"
+    },
+    {
+      "path": "results/clinical/cervical/inner_selection.csv",
+      "bytes": 689882,
+      "sha256": "9c28e36fd02cc867d66faebd4aed8b4847b0f46815ade382fbcc602803f72581"
+    },
+    {
+      "path": "results/clinical/cervical/outer_predictions.csv",
+      "bytes": 88518,
+      "sha256": "a16f424f7ac1e79558190eff8c806707f82c827148946353a83f871a7918a883"
+    },
+    {
+      "path": "results/clinical/cervical/run_metadata.json",
+      "bytes": 2987,
+      "sha256": "5dcf3dec26a37954a90da3298fc3ffa655c8e3774c077b4cab4f379c8a3e1e9a"
+    },
+    {
+      "path": "results/clinical/cervical/summary.csv",
+      "bytes": 2657,
+      "sha256": "33489f4d73f88f917d1a1fd92c50d4609a606fa85cbeeedbc00f02c3775c71f1"
+    },
+    {
+      "path": "results/clinical/diabetes/fold_means.csv",
+      "bytes": 14384,
+      "sha256": "d41608a32734640ae1057c31057f71e189cbd1ccc5fadc2e9c04120017c12339"
+    },
+    {
+      "path": "results/clinical/diabetes/fold_results.csv",
+      "bytes": 45637,
+      "sha256": "559443014a411a811692ca27c8d5be7aac670643d141975b9082f06a16e3ddc4"
+    },
+    {
+      "path": "results/clinical/diabetes/fold_timings.csv",
+      "bytes": 5531,
+      "sha256": "ea17d3a74ca99cfb7086f664a9bcf7b2f8922d61cb2c3fd28770df8db8b384e3"
+    },
+    {
+      "path": "results/clinical/diabetes/inner_selection.csv",
+      "bytes": 786491,
+      "sha256": "a08bd9b0c69e39dd6726c0af6a3b1511d9a953867e3d9ecedebe6d9f71d6cfb9"
+    },
+    {
+      "path": "results/clinical/diabetes/outer_predictions.csv",
+      "bytes": 932324,
+      "sha256": "3a83731d3d5b07e2488deec2f5eb39a7322f560b8102b861b7c4d0aa1dc2c333"
+    },
+    {
+      "path": "results/clinical/diabetes/run_metadata.json",
+      "bytes": 2668,
+      "sha256": "e88b55535ea248f236e5fbd4da7ed1093f6b415378c6d5b73c61ac5372c3601c"
+    },
+    {
+      "path": "results/clinical/diabetes/summary.csv",
+      "bytes": 2743,
+      "sha256": "463ea2db81590dbfb3020e2fdcc674340668bfb60ce6f9b6bafb5b1c5f0d1881"
+    },
+    {
+      "path": "results/clinical/haberman/fold_means.csv",
+      "bytes": 13353,
+      "sha256": "38dbba3c6e8e22bfe9a2e518ec36b89f8171c18e386bdf50298372064942e7ea"
+    },
+    {
+      "path": "results/clinical/haberman/fold_results.csv",
+      "bytes": 43287,
+      "sha256": "db30c5be4034a99b588b3ca62a8bc3f99b39412265bd75bd263bc35c92b5a0b5"
+    },
+    {
+      "path": "results/clinical/haberman/fold_timings.csv",
+      "bytes": 5625,
+      "sha256": "5da9fd7fcef542cbaab677845cac1fec263852b7a44944b2028eb6ab405a13a0"
+    },
+    {
+      "path": "results/clinical/haberman/inner_selection.csv",
+      "bytes": 727065,
+      "sha256": "03246a8df1eae04df0bd938ff5e6921814649b73972bafd523ed75ee736b61d0"
+    },
+    {
+      "path": "results/clinical/haberman/outer_predictions.csv",
+      "bytes": 384235,
+      "sha256": "ef2e40bf418b3625d65bd309ea0f5a84ffb1fefec99c3e00931b9369235d30c0"
+    },
+    {
+      "path": "results/clinical/haberman/run_metadata.json",
+      "bytes": 2666,
+      "sha256": "efb176523a9ec26233fc348ef47a99c314c66373690ad605ed429548b5b817f6"
+    },
+    {
+      "path": "results/clinical/haberman/summary.csv",
+      "bytes": 2729,
+      "sha256": "e92f4f2478fb30a103a1c882db3e0f48e4c9c12d7d95e5d4c825e32c71098c0b"
+    },
+    {
+      "path": "results/figures/Fig1_workflow.png",
+      "bytes": 623844,
+      "sha256": "9929e3cf1a03d11c2ecf46dc4e98db205733ec2d7b03e5686bad81f898b8700d"
+    },
+    {
+      "path": "results/figures/Fig1_workflow.svg",
+      "bytes": 33151,
+      "sha256": "a70e8e2489ea80642de61464e76557462684145cd2efffe8580898d25610c170"
+    },
+    {
+      "path": "results/figures/Fig2_clinical.pdf",
+      "bytes": 25785,
+      "sha256": "e5b12ac65e3a0b7e82d0745f0b3f6f16e79bbe40fa5ffe937d43857e4d9b0808"
+    },
+    {
+      "path": "results/figures/Fig2_clinical.png",
+      "bytes": 192287,
+      "sha256": "bc85a469a3848d5a07cb5c777aeaf5ce0aa97722be4755fdcd96d59fadc1c878"
+    },
+    {
+      "path": "results/figures/Fig2_clinical.svg",
+      "bytes": 23025,
+      "sha256": "c169c6618a8ec3a0804d3adf9c684ea9ba89834503e11510da4a821de49a3317"
+    },
+    {
+      "path": "results/figures/Fig3_benchmark.pdf",
+      "bytes": 42697,
+      "sha256": "a977607285f36c7a32dab95f871b3f2fef8c5478312913e02fd27387e6682bef"
+    },
+    {
+      "path": "results/figures/Fig3_benchmark.png",
+      "bytes": 192117,
+      "sha256": "b76ab8d76f2016c929124c3168d96af4a8790452ea2b161430575385a2d1948e"
+    },
+    {
+      "path": "results/figures/Fig3_benchmark.svg",
+      "bytes": 177941,
+      "sha256": "eb4e65974b754cdea25effc0cc00a36bf24b95820388c6e9e64e5f3df68ed01c"
+    },
+    {
+      "path": "results/figures/Fig4_simulation_size.pdf",
+      "bytes": 17982,
+      "sha256": "563957108c045266ffcbaf8e88aa9c11a0e7a6b623d04bb501b30b43adae52bb"
+    },
+    {
+      "path": "results/figures/Fig4_simulation_size.png",
+      "bytes": 406653,
+      "sha256": "638d13597fa978c40d1d2273a3f3d95609b1651b29ac6ebeacc12fcde248a251"
+    },
+    {
+      "path": "results/figures/Fig4_simulation_size.svg",
+      "bytes": 50847,
+      "sha256": "31440f23e9a55391020d0bf1e8c5b1906264faf4128b9f9ec3cbf2e18e5f98a5"
+    },
+    {
+      "path": "results/figures/Fig5_simulation_groups.pdf",
+      "bytes": 14667,
+      "sha256": "3a357eab8db24361e1799c1391494fd7c71c3641760b460fd65688d80c88d694"
+    },
+    {
+      "path": "results/figures/Fig5_simulation_groups.png",
+      "bytes": 175728,
+      "sha256": "eaf7e2a08cfb563657397b9346da52cbbb7e2f3a704f95a05705e4d8c838d993"
+    },
+    {
+      "path": "results/figures/Fig5_simulation_groups.svg",
+      "bytes": 12851,
+      "sha256": "6c3b6e1aae93a41fd35ff86ad8a6b401ece5ba0c1a4dd0e3d28e506615a7814f"
+    },
+    {
+      "path": "results/figures/Fig6_simulation_differences.pdf",
+      "bytes": 27178,
+      "sha256": "1c41b99af99eccf80136749b4dbda8915361644221e7cdb3fc5eedf8eb45a9ff"
+    },
+    {
+      "path": "results/figures/Fig6_simulation_differences.png",
+      "bytes": 224979,
+      "sha256": "fa321527843da9a69564ec854389fd871fdd7cdfd7fb72a33bd85fd698afd25f"
+    },
+    {
+      "path": "results/figures/Fig6_simulation_differences.svg",
+      "bytes": 63594,
+      "sha256": "93f9c7b5ec1e32e7722f0158e6886f2688898da072c9a9717ae6d22c962228da"
+    },
+    {
+      "path": "results/reported/benchmark_fold_results.csv",
+      "bytes": 56216,
+      "sha256": "536f6a9859fc1862001ce7356271296bd0db5cfe04316fdcc6da0761a09172fd"
+    },
+    {
+      "path": "results/reported/benchmark_summary.csv",
+      "bytes": 4968,
+      "sha256": "1ae10760c25aa98db475d7bf7397f6b1e4b934407d641e89673371cac3b19878"
+    },
+    {
+      "path": "results/reported/benchmark_timings.csv",
+      "bytes": 25706,
+      "sha256": "b36dda53709eb1cfdfdadc57c4623065df95365305b958e049dc218e1d9318f8"
+    },
+    {
+      "path": "results/reported/benchmark_wilcoxon_holm.csv",
+      "bytes": 339,
+      "sha256": "ebc9126b4c51ed20fa51223e14fc60048560aea84937dfbf0e911b86ebe2d651"
+    },
+    {
+      "path": "results/reported/clinical_average_ranks.csv",
+      "bytes": 66,
+      "sha256": "fec0f5723ee5094afbbe8c29a69bddb20c49b10087bf99882f51e67b826ccf6e"
+    },
+    {
+      "path": "results/reported/clinical_fold_means.csv",
+      "bytes": 60455,
+      "sha256": "146e0587ec0764126d5fa23551378b5e5ea281001c928905040d1ef165f1bbe2"
+    },
+    {
+      "path": "results/reported/clinical_friedman.csv",
+      "bytes": 135,
+      "sha256": "bece5ff281ba2ddcea35530d3766bf085b4d418e33903b343e8e6f279e97f938"
+    },
+    {
+      "path": "results/reported/clinical_selection_counts.csv",
+      "bytes": 32442,
+      "sha256": "237fd95ee2601b8acb5e5317fcbbdbe8d994011a67988e5330a1e08853801aa1"
+    },
+    {
+      "path": "results/reported/clinical_summary.csv",
+      "bytes": 12234,
+      "sha256": "9af1f77b9ab07425b6b8f08bd2e5d8d6ffa7a7ceeddcc48cb3d0437f265bda9a"
+    },
+    {
+      "path": "results/reported/clinical_task_f1.csv",
+      "bytes": 1646,
+      "sha256": "6b7a2156b4f360e933a46840f2f99dfe641e530e60b4a0a1b45dc402bcd7fb3f"
+    },
+    {
+      "path": "results/reported/clinical_wilcoxon_holm.csv",
+      "bytes": 567,
+      "sha256": "5cb40734358e469bc8c5a8611fa3243f49288dee0fb34cc844f4c8d54f3fe21e"
+    },
+    {
+      "path": "results/reported/simulation_paired_differences.csv",
+      "bytes": 59365,
+      "sha256": "d85ee4053b464c260d7926aa2bf2d1a18c31f1b1c1bbc35c022bc8203519ae6d"
+    },
+    {
+      "path": "results/reported/simulation_summary.csv",
+      "bytes": 49982,
+      "sha256": "8c696034c1f6a03981c3c7e43d013a4b82ab51e25db45c8829a96b18d1799506"
+    },
+    {
+      "path": "results/reported/Supplementary_clinical_four_metrics.csv",
+      "bytes": 12234,
+      "sha256": "9af1f77b9ab07425b6b8f08bd2e5d8d6ffa7a7ceeddcc48cb3d0437f265bda9a"
+    },
+    {
+      "path": "results/reported/Table1_datasets.csv",
+      "bytes": 189,
+      "sha256": "65cf1d9bdd42e105f41d1c872d7d9ee43e0b67039fd370152d698c3736a6bf9b"
+    },
+    {
+      "path": "results/reported/Table2_clinical_F1.csv",
+      "bytes": 1568,
+      "sha256": "9cddff1aee04ad1873b7b2b12c0bfce04374c13772a706c00b1275dca9450a08"
+    },
+    {
+      "path": "results/reported/Table3_main_statistics.csv",
+      "bytes": 622,
+      "sha256": "ec2e292afe7ff14e17749d62e1f8535729f98adfc6026ca993b2c444c07ca081"
+    },
+    {
+      "path": "results/reported/Table4_benchmark_performance.csv",
+      "bytes": 685,
+      "sha256": "cc5bc40844a86c6ecb2939b2f2136e48377bfa3d6eb91268c24fa9840d605780"
+    },
+    {
+      "path": "results/reported/Table5_benchmark_runtime.csv",
+      "bytes": 345,
+      "sha256": "03dde2d41a15695721fd28cb87b2c305a8a02a9716ab541179381b4520894358"
+    },
+    {
+      "path": "results/reported/Table6_simulation_F1.csv",
+      "bytes": 1255,
+      "sha256": "3bb84dabae2d5677c1512efab9dad6d74175a01d7262823b38534cecbda0a5d0"
+    },
+    {
+      "path": "results/reported/Table7_simulation_groups.csv",
+      "bytes": 908,
+      "sha256": "5ba350a6231abc40584fc39009a05f1cd90f4cf8a85c14f251a8ff1d491b2a95"
+    },
+    {
+      "path": "results/reported/verification.json",
+      "bytes": 556,
+      "sha256": "dd3df13030e68a262cf3bb4efd489542025627781bb74b15688e6c0c6a75fc2f"
+    },
+    {
+      "path": "results/simulation/adaptive_cv_repetitions.csv",
+      "bytes": 242,
+      "sha256": "a38f0f92824f4731577b70c3c71f7dd56ffc788e9735b91db83972d5697344ea"
+    },
+    {
+      "path": "results/simulation/audit_summary.json",
+      "bytes": 352,
+      "sha256": "003a448c0ab0af440296b7d067bbf86e9a536eca7b5d248b841eb112a314ad3f"
+    },
+    {
+      "path": "results/simulation/invalid_repetitions.csv",
+      "bytes": 38,
+      "sha256": "d719668d4ad8c1475528f493c6040bd5cdb8b9bd3cdd85d5bb4f3d17cc660403"
+    },
+    {
+      "path": "results/simulation/job_inventory.csv",
+      "bytes": 109237,
+      "sha256": "728fd2bb18a03ea296d24800f5538207a5a62fb60ef1b2c623787efb25a50fab"
+    },
+    {
+      "path": "results/simulation/missing_repetitions.csv",
+      "bytes": 46,
+      "sha256": "46f5dfec50925297801f5c8624a70f08063c66c398e5208fbf52156d737d55a6"
+    },
+    {
+      "path": "results/simulation/paired_differences.csv",
+      "bytes": 62231,
+      "sha256": "232fe28d2eb66800fd6758033d645015e0d0a546a17722f1ff15e7ecbd59578a"
+    },
+    {
+      "path": "results/simulation/repetition_means.csv",
+      "bytes": 1973116,
+      "sha256": "5a8078721274ad78a6cc903060f266af21fc23fd3258878168aa019ad2afdee9"
+    },
+    {
+      "path": "results/simulation/repetition_results.csv",
+      "bytes": 3710504,
+      "sha256": "68a70c0a7fc9d41ae5875c154d73ba28f0d91fd489368785f4eaab7f7d93b182"
+    },
+    {
+      "path": "results/simulation/summary.csv",
+      "bytes": 53350,
+      "sha256": "abca0c5e765914a3819526a1317599130e35a457b85e8729c5f73567a6bbe29a"
+    },
+    {
+      "path": "results/simulation/training_retention.csv",
+      "bytes": 810717,
+      "sha256": "a0114496bf4941efd295f7bb526346fe18fb91cb177f0696d37eceb83d4da949"
+    },
+    {
+      "path": "run_benchmark.py",
+      "bytes": 699,
+      "sha256": "feaabd56db2016c67a44d078e583b5b9b15786d0b622b6cab557053b8c3981bc"
+    },
+    {
+      "path": "run_simulation.py",
+      "bytes": 376,
+      "sha256": "0546ccbdf5120b78a76e7829f4082df4ca7be836b99949d14849930124260e89"
+    },
+    {
+      "path": "simulation/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "simulation/combine_results.py",
+      "bytes": 8618,
+      "sha256": "390ac7206e98c24866add108dbb9e16845bbbd8f007302fdae0bbc2da3b9fb8e"
+    },
+    {
+      "path": "simulation/generate_jobs.py",
+      "bytes": 634,
+      "sha256": "919530a7576a9fb1910de0a901d7e4f4235e4547705669ed1d8636260bf31755"
+    },
+    {
+      "path": "simulation/preflight_invalid.py",
+      "bytes": 1715,
+      "sha256": "f7d71dda3d23f4760fa1c402280a87ae10b75eaae6950c56e54f71fc0b49f756"
+    },
+    {
+      "path": "simulation/sepm_simulation.py",
+      "bytes": 25217,
+      "sha256": "a6b60e8b0aef8b292770e14e52a7b283e6986e42b293ebc1f63d28c857310149"
+    },
+    {
+      "path": "simulation/sim_batch.py",
+      "bytes": 6108,
+      "sha256": "ac4a365d3ab2fc665e9221aff6cbc67ca7d36f7df4a0b0bf0574dfce273816dd"
+    }
+  ]
+}

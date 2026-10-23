@@ -1,0 +1,7 @@
+# Provenance and packaging changes
+
+The benchmark implementation is byte-identical to the source identified by SHA-256 in the 40 completed CHTC jobs. The simulation implementation is byte-identical to the source identified in the completed 2,000-repetition audit. Source hashes are checked during result verification.
+
+The four supplied clinical programs were renamed to `sepm_<dataset>.py` and given repository-relative data and rerun output paths. Their functions implementing ranking, preprocessing, metrics, model fitting and selection were preserved. The copied breast, diabetes and Haberman programs had a stale metadata string saying inner selection used native predictions; their actual `validation_f1` expressions use probability >= 0.5. The packaging corrects this label for NEW runs only. Saved historical `results/clinical/*/run_metadata.json` are preserved verbatim, including stale strings and original local paths. Baseline GridSearchCV still uses native-prediction F1. No threshold tuning, one-standard-error selection or soft-SEPM variant was introduced.
+
+`source_files.json` records input hashes and copied-file origins. `FILE_MANIFEST.json` records every published file checksum. The report code was newly organized for portability and includes all three main-benchmark pairwise F1 contrasts and the four-metric SEPM–TMC Holm family. Old two-comparison and six-scenario reports are not designated as final outputs.

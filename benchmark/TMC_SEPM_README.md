@@ -1,0 +1,3 @@
+# Final common-protocol benchmark
+
+The implementation in `pilot_tmc_sepm.py` retains its original filename and bytes so its source hash can be compared with the completed CHTC jobs. Do not execute that module directly with its old pilot defaults. Use `run_benchmark.py` from the repository root, or `chtc_fold_runner.py --dataset cervical --fold 0 --mode benchmark --data-dir ../data --output-root ../reruns/benchmark --search-jobs 2` from this directory. The benchmark driver sets 100 permutations and random stream 101. See the root README and `cluster/README.md` for all four datasets and all folds.

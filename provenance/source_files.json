@@ -1,0 +1,632 @@
+[
+  {
+    "packaged_file": "clinical\\sepm_cervical.py",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\sepm_native_selection\\pilot_cervical_sepm_naive.py",
+    "source_sha256": "8b914981786bbfe4f8842b031f0e52b2b126b8b5b50ab661f97f12116da7b063",
+    "modified": true,
+    "changes": [
+      "relative input/output paths",
+      "dataset header comment",
+      "accurate new-run metadata prediction-rule label; no selection calculation changed"
+    ]
+  },
+  {
+    "packaged_file": "results/clinical/cervical/fold_means.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\cervical_sepm_native_selection\\fold_means.csv",
+    "source_sha256": "934d616034b8eec72155ae4b600a63a4a3e411e3286e198b62e3dcb18afc9cc4",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/cervical/fold_results.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\cervical_sepm_native_selection\\fold_results.csv",
+    "source_sha256": "0012f82409ec1442a94c0bf428fda85563296dd00673c43af0b26aa59b42c250",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/cervical/fold_timings.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\cervical_sepm_native_selection\\fold_timings.csv",
+    "source_sha256": "09a44d2f2dcd9ca74248cb3e663029c96c6deeb87622d2595358911956b4127b",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/cervical/inner_selection.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\cervical_sepm_native_selection\\inner_selection.csv",
+    "source_sha256": "9c28e36fd02cc867d66faebd4aed8b4847b0f46815ade382fbcc602803f72581",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/cervical/outer_predictions.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\cervical_sepm_native_selection\\outer_predictions.csv",
+    "source_sha256": "a16f424f7ac1e79558190eff8c806707f82c827148946353a83f871a7918a883",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/cervical/run_metadata.json",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\cervical_sepm_native_selection\\run_metadata.json",
+    "source_sha256": "5dcf3dec26a37954a90da3298fc3ffa655c8e3774c077b4cab4f379c8a3e1e9a",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/cervical/summary.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\cervical_sepm_native_selection\\summary.csv",
+    "source_sha256": "33489f4d73f88f917d1a1fd92c50d4609a606fa85cbeeedbc00f02c3775c71f1",
+    "modified": false
+  },
+  {
+    "packaged_file": "clinical\\sepm_breast.py",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\sepm_native_selection\\pilot_breast_sepm_native.py",
+    "source_sha256": "e09e388cc52b847156d0824dd4490e5b89aca2f8fc01e5eb78cce4a3e6341381",
+    "modified": true,
+    "changes": [
+      "relative input/output paths",
+      "dataset header comment",
+      "accurate new-run metadata prediction-rule label; no selection calculation changed"
+    ]
+  },
+  {
+    "packaged_file": "results/clinical/breast/fold_means.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\breast_sepm_native_selection\\fold_means.csv",
+    "source_sha256": "e85aa53f44d8b48bb4ee983fbc1999b3d39434621ecf08f270b971fca5d76481",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/breast/fold_results.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\breast_sepm_native_selection\\fold_results.csv",
+    "source_sha256": "ec070c04a571f0fdc5c1e96804e3c42f02496efdf8a72ebcbe947e96c8daadd1",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/breast/fold_timings.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\breast_sepm_native_selection\\fold_timings.csv",
+    "source_sha256": "03ad527448815295e2c376f9f8f64ac7ce3f85c03b8512e216d959ffdae4df8c",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/breast/inner_selection.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\breast_sepm_native_selection\\inner_selection.csv",
+    "source_sha256": "a0dd0b9b5250363ba0ce5b629932764d4b6783050a4ab526fb0b7ced83bf7c23",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/breast/outer_predictions.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\breast_sepm_native_selection\\outer_predictions.csv",
+    "source_sha256": "8a57a170873909a000968adcc02073aee05638ce26daddf24a651827e2b285fd",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/breast/run_metadata.json",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\breast_sepm_native_selection\\run_metadata.json",
+    "source_sha256": "a37d63070133ace66ead959c0fdc106d9d275d54525d3d6ea639150294af3605",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/breast/summary.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\breast_sepm_native_selection\\summary.csv",
+    "source_sha256": "71f32ba73ff597d04b64db9d57e3a479aaecc84995119b563f4b419c3145f38d",
+    "modified": false
+  },
+  {
+    "packaged_file": "clinical\\sepm_diabetes.py",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\sepm_native_selection\\pilot_diabetes_sepm_native.py",
+    "source_sha256": "632a2029e88c16794d80ab698cd6415440aba8f784b1e3fba38f4e5488abaead",
+    "modified": true,
+    "changes": [
+      "relative input/output paths",
+      "dataset header comment",
+      "accurate new-run metadata prediction-rule label; no selection calculation changed"
+    ]
+  },
+  {
+    "packaged_file": "results/clinical/diabetes/fold_means.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\diabetes_sepm_native_selection\\fold_means.csv",
+    "source_sha256": "d41608a32734640ae1057c31057f71e189cbd1ccc5fadc2e9c04120017c12339",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/diabetes/fold_results.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\diabetes_sepm_native_selection\\fold_results.csv",
+    "source_sha256": "559443014a411a811692ca27c8d5be7aac670643d141975b9082f06a16e3ddc4",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/diabetes/fold_timings.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\diabetes_sepm_native_selection\\fold_timings.csv",
+    "source_sha256": "ea17d3a74ca99cfb7086f664a9bcf7b2f8922d61cb2c3fd28770df8db8b384e3",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/diabetes/inner_selection.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\diabetes_sepm_native_selection\\inner_selection.csv",
+    "source_sha256": "a08bd9b0c69e39dd6726c0af6a3b1511d9a953867e3d9ecedebe6d9f71d6cfb9",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/diabetes/outer_predictions.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\diabetes_sepm_native_selection\\outer_predictions.csv",
+    "source_sha256": "3a83731d3d5b07e2488deec2f5eb39a7322f560b8102b861b7c4d0aa1dc2c333",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/diabetes/run_metadata.json",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\diabetes_sepm_native_selection\\run_metadata.json",
+    "source_sha256": "e88b55535ea248f236e5fbd4da7ed1093f6b415378c6d5b73c61ac5372c3601c",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/diabetes/summary.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\diabetes_sepm_native_selection\\summary.csv",
+    "source_sha256": "463ea2db81590dbfb3020e2fdcc674340668bfb60ce6f9b6bafb5b1c5f0d1881",
+    "modified": false
+  },
+  {
+    "packaged_file": "clinical\\sepm_haberman.py",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\sepm_native_selection\\pilot_haberman_sepm_native.py",
+    "source_sha256": "7bfb9e5b18197e4e72a4513a8b9313bc8abd99407e66f0d1ceb41f76807a9aa2",
+    "modified": true,
+    "changes": [
+      "relative input/output paths",
+      "dataset header comment",
+      "accurate new-run metadata prediction-rule label; no selection calculation changed"
+    ]
+  },
+  {
+    "packaged_file": "results/clinical/haberman/fold_means.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\haberman_sepm_native_selection\\fold_means.csv",
+    "source_sha256": "38dbba3c6e8e22bfe9a2e518ec36b89f8171c18e386bdf50298372064942e7ea",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/haberman/fold_results.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\haberman_sepm_native_selection\\fold_results.csv",
+    "source_sha256": "db30c5be4034a99b588b3ca62a8bc3f99b39412265bd75bd263bc35c92b5a0b5",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/haberman/fold_timings.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\haberman_sepm_native_selection\\fold_timings.csv",
+    "source_sha256": "5da9fd7fcef542cbaab677845cac1fec263852b7a44944b2028eb6ab405a13a0",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/haberman/inner_selection.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\haberman_sepm_native_selection\\inner_selection.csv",
+    "source_sha256": "03246a8df1eae04df0bd938ff5e6921814649b73972bafd523ed75ee736b61d0",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/haberman/outer_predictions.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\haberman_sepm_native_selection\\outer_predictions.csv",
+    "source_sha256": "ef2e40bf418b3625d65bd309ea0f5a84ffb1fefec99c3e00931b9369235d30c0",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/haberman/run_metadata.json",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\haberman_sepm_native_selection\\run_metadata.json",
+    "source_sha256": "efb176523a9ec26233fc348ef47a99c314c66373690ad605ed429548b5b817f6",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/clinical/haberman/summary.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\haberman_sepm_native_selection\\summary.csv",
+    "source_sha256": "e92f4f2478fb30a103a1c882db3e0f48e4c9c12d7d95e5d4c825e32c71098c0b",
+    "modified": false
+  },
+  {
+    "packaged_file": "benchmark/audit_tmc_sepm_chtc.py",
+    "source_archive": "SEPM_TMC_CHTC.zip",
+    "source_member": "scripts/audit_tmc_sepm_chtc.py",
+    "source_sha256": "02be4e27f10096c128bef2074da7afb8ff2c64f7ee8c86cca2b311f34e8cef2d",
+    "modified": false
+  },
+  {
+    "packaged_file": "benchmark/chtc_fold_runner.py",
+    "source_archive": "SEPM_TMC_CHTC.zip",
+    "source_member": "scripts/chtc_fold_runner.py",
+    "source_sha256": "411f0984705c5a8ba2e99bf9a6761dc2271d0aaade36c9a41bff13b295683ad8",
+    "modified": false
+  },
+  {
+    "packaged_file": "benchmark/combine_sepm_tmc_results.py",
+    "source_archive": "SEPM_TMC_CHTC.zip",
+    "source_member": "scripts/combine_sepm_tmc_results.py",
+    "source_sha256": "d95c4e360006598d1d73ae84f680a3c14d5b6bfc497af4e4af9b30e8b92d05dd",
+    "modified": false
+  },
+  {
+    "packaged_file": "benchmark/pilot_tmc_sepm.py",
+    "source_archive": "SEPM_TMC_CHTC.zip",
+    "source_member": "scripts/pilot_tmc_sepm.py",
+    "source_sha256": "1f1251ba1ada396fcf4bbba8cd12f72bed6b51fafff60491fd5ba0d1f62076b3",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/chtc_job_specs.txt",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\chtc_job_specs.txt",
+    "source_sha256": "8629aa54eeffa1f06b34e9e0e4f58424edfe7a0783b02cd3ce7d0c8d106ad15a",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_breast_fold_0_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_breast_fold_0_benchmark.tar.gz",
+    "source_sha256": "a751841f808e0971eb3bec7fe4651d324800497d62dd07d51980ee249b6fe6fb",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_breast_fold_1_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_breast_fold_1_benchmark.tar.gz",
+    "source_sha256": "185120c5939e00dca1e0ab8b2c008b2c1cd547e0286b2d9cc9aef3dc3a31c25e",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_breast_fold_2_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_breast_fold_2_benchmark.tar.gz",
+    "source_sha256": "313aa9c6dd5018e13bfcdf2bc6b4ff3a9ce5eeb7623831bcfb900aa802021f55",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_breast_fold_3_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_breast_fold_3_benchmark.tar.gz",
+    "source_sha256": "8bb9c8f78def9b633bb933cdc0b558c652d592339a2613512fe7b7f40a21166a",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_breast_fold_4_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_breast_fold_4_benchmark.tar.gz",
+    "source_sha256": "2d59708a526dc1288ff900be4cb2c8cc96bbc158121e7bc4b10822ec050beadf",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_breast_fold_5_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_breast_fold_5_benchmark.tar.gz",
+    "source_sha256": "8bde7931e69fdcfad3ef9f5d059f600f8d2dadff4ac5146fd1d81a4369cebcb7",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_breast_fold_6_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_breast_fold_6_benchmark.tar.gz",
+    "source_sha256": "7590df9d08c80fce7a944011bf0514bb4169a8a15921820b99ab5ff3ec15074f",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_breast_fold_7_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_breast_fold_7_benchmark.tar.gz",
+    "source_sha256": "9403b9e6af969138e3b612cd3d00fba1ac9802e898df84888c5d9b55d461b04f",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_breast_fold_8_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_breast_fold_8_benchmark.tar.gz",
+    "source_sha256": "4a6c771716eae71710c77717197e116a7c4a5c34d1e09f3d3edea3c48dd6b3f4",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_breast_fold_9_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_breast_fold_9_benchmark.tar.gz",
+    "source_sha256": "ff871f90041d24ebee647f862e92f1ec8902f52fe11dffadc6ec0cf7068b562f",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_0_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_cervical_fold_0_benchmark.tar.gz",
+    "source_sha256": "755a895f0e42713db364f3bb8a6c19bb13289b94cbc77d35594de9ad37c9f921",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_1_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_cervical_fold_1_benchmark.tar.gz",
+    "source_sha256": "219f1a9894f045fc62a68e8d224f724d6cebadb891c376d60e60a4a89ed45709",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_2_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_cervical_fold_2_benchmark.tar.gz",
+    "source_sha256": "272f2efd3883e6e403c1f2286e22b2acf99a40206b19c04ee9b60e8786c7a4cb",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_3_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_cervical_fold_3_benchmark.tar.gz",
+    "source_sha256": "357293add8d86cb4fd3214ae7517c9ca9f4b0ebbef3d6a7d43636cdfd44c024d",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_4_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_cervical_fold_4_benchmark.tar.gz",
+    "source_sha256": "d71c975cd83ceae8faaad83f48998895307a5971e5d258ad6e64f1bffd75f610",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_5_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_cervical_fold_5_benchmark.tar.gz",
+    "source_sha256": "05bcf1f3c0580022cef2c1641278967689afeb11f579107d2e2136aa025cdc88",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_6_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_cervical_fold_6_benchmark.tar.gz",
+    "source_sha256": "cfc0370d6fab92b094836579add868db28527e4fcc57ead3fa4d6a2fb42fa48a",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_7_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_cervical_fold_7_benchmark.tar.gz",
+    "source_sha256": "6a67b774c3748c4ce39eaf9068b24e307a8f7d94dbcea17b72b2ef76aba3c3d0",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_8_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_cervical_fold_8_benchmark.tar.gz",
+    "source_sha256": "d680e28cc5a82e5ba8dd7a9701062eb8549a99f28700403dac9641ebec7cd553",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_cervical_fold_9_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_cervical_fold_9_benchmark.tar.gz",
+    "source_sha256": "09d307ec33ebeb3611971f630dd4532edc1cb0febb4b5303c2120961311c58ce",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_0_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_diabetes_fold_0_benchmark.tar.gz",
+    "source_sha256": "d25ad6f4d2a36756f8613159a8b3c009b4e04b14b35b7db86460eafc826399ba",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_1_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_diabetes_fold_1_benchmark.tar.gz",
+    "source_sha256": "6f22e48d6453b64f601103fb9dea1498263cc900e660250a39cf489b7a7702d9",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_2_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_diabetes_fold_2_benchmark.tar.gz",
+    "source_sha256": "da84c91c76e0fee307fe68a878e30add0302ff107f3ec14afbdecda03b1b4255",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_3_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_diabetes_fold_3_benchmark.tar.gz",
+    "source_sha256": "dc934428f073631a9a919ee9f3688dc84067bf6fb93854be5f3e0733da9fd2b9",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_4_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_diabetes_fold_4_benchmark.tar.gz",
+    "source_sha256": "732c08eda4f6e2008b106cf424786b76382eb626c9cc6e9d01a79827deaf08f1",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_5_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_diabetes_fold_5_benchmark.tar.gz",
+    "source_sha256": "76e150e17dbbb88292725b19b6388a42126acbb2185fb71700348bb9d9f6905d",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_6_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_diabetes_fold_6_benchmark.tar.gz",
+    "source_sha256": "d1f583ee63e23d7002ef78a676dd4903e7e590d47187fdb2dd82f1a5f02d8e9a",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_7_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_diabetes_fold_7_benchmark.tar.gz",
+    "source_sha256": "f8e16f4a2552300df753353f65f6e57a31cb8b9a0fd75879a988b04556239a44",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_8_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_diabetes_fold_8_benchmark.tar.gz",
+    "source_sha256": "9906b1a1329bd9456653b699ab67d6d5e9f5d0874067a65285f7edcc0c2c14d0",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_diabetes_fold_9_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_diabetes_fold_9_benchmark.tar.gz",
+    "source_sha256": "0661ed3ffcbd013d8c2698bf2f6d50d5a2f0e34e5107722ee9560fda702bd20b",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_0_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_haberman_fold_0_benchmark.tar.gz",
+    "source_sha256": "3b06e1fc8820f9830a20d5a673c34ebdda7f00656cd59093252abe649b92dc9a",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_1_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_haberman_fold_1_benchmark.tar.gz",
+    "source_sha256": "49934321a9cf2e458205d1d9e4aa0f15f158d0913dd990c8c5213f9a3f24da8f",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_2_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_haberman_fold_2_benchmark.tar.gz",
+    "source_sha256": "63f7b207a60b7d1560d3814e33250fab6370f4a12d5aa1809768e64e88d1eeb1",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_3_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_haberman_fold_3_benchmark.tar.gz",
+    "source_sha256": "6369ce380c8b9e07d240fb48305f32c095984e965a53b7259f1062d43bc7b14e",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_4_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_haberman_fold_4_benchmark.tar.gz",
+    "source_sha256": "645ada80ab66acbabaa69a4bda1c1689544574653cb9f324eb9f0ae573dde85d",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_5_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_haberman_fold_5_benchmark.tar.gz",
+    "source_sha256": "6dd78b49002b749ca40f32b79b4a05e2baf2b4abbf423f9c0bb2f62ab0d3463e",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_6_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_haberman_fold_6_benchmark.tar.gz",
+    "source_sha256": "2719982bab24bda4c73c5f138c6e8e6d2fe42033f76aecdfef3d0f7fc3393a89",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_7_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_haberman_fold_7_benchmark.tar.gz",
+    "source_sha256": "441d17f3917354172bc603bd2ee7e3a972769d58daf655e7efb267b3aaedeab1",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_8_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_haberman_fold_8_benchmark.tar.gz",
+    "source_sha256": "5acc5344464018e3f725151b3573b694e45183fa55516111dd35cabfcf80e702",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/fold_archives/sepm_tmc_haberman_fold_9_benchmark.tar.gz",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_tmc\\tmc_sepm_folds\\sepm_tmc_haberman_fold_9_benchmark.tar.gz",
+    "source_sha256": "2459584f9430f294a686fcd0e504896545a978fcd55643d1b2cae4fa69185594",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/summary.csv",
+    "source_file": "C:\\Users\\amponsah2\\Documents\\ChatGPT\\SHGHA\\revision_oct19\\tmc_review\\summary.csv",
+    "source_sha256": "1ae10760c25aa98db475d7bf7397f6b1e4b934407d641e89673371cac3b19878",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/combined_fold_results.csv",
+    "source_file": "C:\\Users\\amponsah2\\Documents\\ChatGPT\\SHGHA\\revision_oct19\\tmc_review\\combined_fold_results.csv",
+    "source_sha256": "536f6a9859fc1862001ce7356271296bd0db5cfe04316fdcc6da0761a09172fd",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/combined_timings.csv",
+    "source_file": "C:\\Users\\amponsah2\\Documents\\ChatGPT\\SHGHA\\revision_oct19\\tmc_review\\combined_timings.csv",
+    "source_sha256": "b36dda53709eb1cfdfdadc57c4623065df95365305b958e049dc218e1d9318f8",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/benchmark/wilcoxon_holm_four_metrics.csv",
+    "source_file": "C:\\Users\\amponsah2\\Documents\\ChatGPT\\SHGHA\\tmc_chtc_review\\wilcoxon_sepm_tmc.csv",
+    "source_sha256": "0a2d18d1b71e86d15be8f4fb805c69e5d349eff9d104437c9b19ce2eee52754f",
+    "modified": false
+  },
+  {
+    "packaged_file": "simulation/sepm_simulation.py",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_simulation\\sepm_simulation.py",
+    "source_sha256": "a6b60e8b0aef8b292770e14e52a7b283e6986e42b293ebc1f63d28c857310149",
+    "modified": false
+  },
+  {
+    "packaged_file": "simulation/sim_batch.py",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_simulation\\sim_batch.py",
+    "source_sha256": "ac4a365d3ab2fc665e9221aff6cbc67ca7d36f7df4a0b0bf0574dfce273816dd",
+    "modified": false
+  },
+  {
+    "packaged_file": "simulation/generate_jobs.py",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_simulation\\generate_jobs.py",
+    "source_sha256": "919530a7576a9fb1910de0a901d7e4f4235e4547705669ed1d8636260bf31755",
+    "modified": false
+  },
+  {
+    "packaged_file": "simulation/combine_results.py",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_simulation\\combine_results.py",
+    "source_sha256": "390ac7206e98c24866add108dbb9e16845bbbd8f007302fdae0bbc2da3b9fb8e",
+    "modified": false
+  },
+  {
+    "packaged_file": "simulation/preflight_invalid.py",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_simulation\\preflight_invalid.py",
+    "source_sha256": "f7d71dda3d23f4760fa1c402280a87ae10b75eaae6950c56e54f71fc0b49f756",
+    "modified": false
+  },
+  {
+    "packaged_file": "cluster/simulation/run_simulation.sh",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_simulation\\run_simulation.sh",
+    "source_sha256": "78bc5047609f5046b3b50d8ccc3db1cd673d75c174ffaebe6dce930ffe15851a",
+    "modified": false
+  },
+  {
+    "packaged_file": "cluster/simulation/simulation.sub",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_simulation\\simulation.sub",
+    "source_sha256": "33b3a6c4cc445e83ea2539dd7bb060ff89fc69f65e4a006850b113a42c9f4c99",
+    "modified": false
+  },
+  {
+    "packaged_file": "cluster/simulation/jobs_full.txt",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_simulation\\jobs_full.txt",
+    "source_sha256": "c3867e6d8e3969a11ad1affafe3e752e7eb5cb0c01ec1f9dd7c5fce7d05d2a6d",
+    "modified": false
+  },
+  {
+    "packaged_file": "cluster/simulation/jobs_smoke.txt",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_simulation\\jobs_smoke.txt",
+    "source_sha256": "c73747985a1536f1688888c10d4cfa8dcdd753e3d154f6a72d14f0cebbd4c9a4",
+    "modified": false
+  },
+  {
+    "packaged_file": "cluster/simulation/jobs.txt",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\all_results\\sepm_simulation\\jobs_full.txt",
+    "source_sha256": "c3867e6d8e3969a11ad1affafe3e752e7eb5cb0c01ec1f9dd7c5fce7d05d2a6d",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/simulation/adaptive_cv_repetitions.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\simulation_studies\\sepm_simulation_runs\\sepm_simulation\\combined_simulation\\adaptive_cv_repetitions.csv",
+    "source_sha256": "a38f0f92824f4731577b70c3c71f7dd56ffc788e9735b91db83972d5697344ea",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/simulation/audit_summary.json",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\simulation_studies\\sepm_simulation_runs\\sepm_simulation\\combined_simulation\\audit_summary.json",
+    "source_sha256": "003a448c0ab0af440296b7d067bbf86e9a536eca7b5d248b841eb112a314ad3f",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/simulation/invalid_repetitions.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\simulation_studies\\sepm_simulation_runs\\sepm_simulation\\combined_simulation\\invalid_repetitions.csv",
+    "source_sha256": "d719668d4ad8c1475528f493c6040bd5cdb8b9bd3cdd85d5bb4f3d17cc660403",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/simulation/job_inventory.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\simulation_studies\\sepm_simulation_runs\\sepm_simulation\\combined_simulation\\job_inventory.csv",
+    "source_sha256": "728fd2bb18a03ea296d24800f5538207a5a62fb60ef1b2c623787efb25a50fab",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/simulation/missing_repetitions.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\simulation_studies\\sepm_simulation_runs\\sepm_simulation\\combined_simulation\\missing_repetitions.csv",
+    "source_sha256": "46f5dfec50925297801f5c8624a70f08063c66c398e5208fbf52156d737d55a6",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/simulation/paired_differences.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\simulation_studies\\sepm_simulation_runs\\sepm_simulation\\combined_simulation\\paired_differences.csv",
+    "source_sha256": "232fe28d2eb66800fd6758033d645015e0d0a546a17722f1ff15e7ecbd59578a",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/simulation/repetition_means.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\simulation_studies\\sepm_simulation_runs\\sepm_simulation\\combined_simulation\\repetition_means.csv",
+    "source_sha256": "5a8078721274ad78a6cc903060f266af21fc23fd3258878168aa019ad2afdee9",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/simulation/repetition_results.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\simulation_studies\\sepm_simulation_runs\\sepm_simulation\\combined_simulation\\repetition_results.csv",
+    "source_sha256": "68a70c0a7fc9d41ae5875c154d73ba28f0d91fd489368785f4eaab7f7d93b182",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/simulation/summary.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\simulation_studies\\sepm_simulation_runs\\sepm_simulation\\combined_simulation\\summary.csv",
+    "source_sha256": "abca0c5e765914a3819526a1317599130e35a457b85e8729c5f73567a6bbe29a",
+    "modified": false
+  },
+  {
+    "packaged_file": "results/simulation/training_retention.csv",
+    "source_file": "C:\\Users\\amponsah2\\DataspellProjects\\shga_ctgan\\SEPM\\simulation_studies\\sepm_simulation_runs\\sepm_simulation\\combined_simulation\\training_retention.csv",
+    "source_sha256": "a0114496bf4941efd295f7bb526346fe18fb91cb177f0696d37eceb83d4da949",
+    "modified": false
+  }
+]

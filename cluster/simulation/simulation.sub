@@ -1,0 +1,20 @@
+universe = vanilla
+container_image = YOUR_CONTAINER_IMAGE_URI
+requirements = (HasCHTCStaging == true)
+
+executable = run_simulation.sh
+arguments = $(n) $(p) $(start) $(count) $(mode)
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = sepm_simulation_bundle.tar.gz
+transfer_output_files = sepm_sim_n$(n)_p$(p)_r$(start)_c$(count)_$(mode).tar.gz
+
+log    = logs/sepm_sim_n$(n)_p$(p)_r$(start)_c$(count)_$(mode).log
+output = logs/sepm_sim_n$(n)_p$(p)_r$(start)_c$(count)_$(mode).out
+error  = logs/sepm_sim_n$(n)_p$(p)_r$(start)_c$(count)_$(mode).err
+
+request_cpus = 2
+request_memory = 8GB
+request_disk = 25GB
+
+queue n, p, start, count, mode from jobs.txt

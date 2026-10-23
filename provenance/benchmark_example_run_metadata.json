@@ -1,0 +1,130 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-18T05:02:22.522405+00:00",
+  "datasets": [
+    "breast"
+  ],
+  "outer_folds": 10,
+  "processed_fold_limit": null,
+  "outer_fold_index": 0,
+  "inner_folds": 5,
+  "seed": 30,
+  "valuation_fraction": 0.2,
+  "proportions": [
+    0.4,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    0.97,
+    0.98,
+    0.99,
+    1.0
+  ],
+  "threshold": 0.5,
+  "tmc_utility": "F1",
+  "tmc_seeds": [
+    101
+  ],
+  "tmc_permutations_per_seed": 100,
+  "tmc_tolerance": 0.01,
+  "tmc_patience": 5,
+  "tmc_min_fraction": 0.1,
+  "random_repeats": 3,
+  "search_jobs": 2,
+  "estimator_jobs": 1,
+  "grids": {
+    "cervical": {
+      "n_estimators": [
+        50,
+        100,
+        150
+      ],
+      "learning_rate": [
+        0.1,
+        0.3,
+        10
+      ],
+      "max_depth": [
+        4,
+        6
+      ]
+    },
+    "breast": {
+      "n_estimators": [
+        50,
+        100,
+        150
+      ],
+      "learning_rate": [
+        0.1,
+        0.3
+      ],
+      "max_depth": [
+        1,
+        2
+      ]
+    },
+    "diabetes": {
+      "n_estimators": [
+        50,
+        100,
+        150
+      ],
+      "learning_rate": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "max_depth": [
+        null,
+        4
+      ]
+    },
+    "haberman": {
+      "n_estimators": [
+        50,
+        100,
+        150
+      ],
+      "learning_rate": [
+        0.3,
+        0.5
+      ],
+      "max_depth": [
+        2,
+        4
+      ]
+    }
+  },
+  "platform": "Linux-5.14.0-620.el9.x86_64-x86_64-with-glibc2.41",
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.2.0"
+  },
+  "source_sha256": "1f1251ba1ada396fcf4bbba8cd12f72bed6b51fafff60491fd5ba0d1f62076b3",
+  "experiment": "common candidate pool; held-out TMC valuation; separate from original SEPM runs",
+  "pilot": true,
+  "inputs": [
+    {
+      "dataset": "breast",
+      "file": "/var/lib/condor/execute/slot1/dir_2200256/scratch/data/breast-cancer.data",
+      "sha256": "ca7d3fa97b62ff967b6894ffbb3acaaf4a51062e0149e5950b3ad6f685970b65",
+      "n": 286,
+      "predictors": 9,
+      "class_counts": [
+        201,
+        85
+      ]
+    }
+  ],
+  "elapsed_seconds": 1488.0068206768483
+}

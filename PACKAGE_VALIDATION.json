@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "clinical": {
+    "prediction_metric_cells": 4000,
+    "tasks": 20,
+    "comparisons": 3
+  },
+  "benchmark": {
+    "jobs": 40,
+    "prediction_metric_cells": 1760,
+    "source_hash_matched": true,
+    "metrics_tested": 4
+  },
+  "simulation": {
+    "raw_records": 30000,
+    "repetition_means": 18000,
+    "scenarios": 20,
+    "repetitions": 2000,
+    "valid_low_SHAP_repetitions": 1750,
+    "summary_rows": 180,
+    "paired_rows": 480,
+    "source_hash_matched": true
+  },
+  "model_training_rerun": false,
+  "python_files_compiled": 28,
+  "exact_statistical_checks_against_enumeration": true,
+  "clinical_and_simulation_F1_tables_match_manuscript": true,
+  "benchmark_bundle_build_checked": true,
+  "figures_2_to_6_generated_successfully": true,
+  "license": "undecided",
+  "original_container_available": false,
+  "all_scientific_configuration_values_match_saved_clinical_metadata": true,
+  "workflow_generation_tested": true,
+  "figure_visual_review": "All six figures inspected",
+  "software_license": "undecided as requested"
+}
