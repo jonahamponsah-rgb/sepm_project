@@ -1,0 +1,601 @@
+dataset,model,fold,method,n_selected,n_selected_positive,n_selected_negative,n_train
+Cervical cancer,GBM,0,SEPM,57.0,18.0,39.0,64
+Cervical cancer,GBM,0,SEPM-RAND,45.0,13.0,32.0,64
+Cervical cancer,GBM,0,TML,64.0,18.0,46.0,64
+Cervical cancer,GBM,1,SEPM,57.0,19.0,38.0,64
+Cervical cancer,GBM,1,SEPM-RAND,45.0,13.0,32.0,64
+Cervical cancer,GBM,1,TML,64.0,19.0,45.0,64
+Cervical cancer,GBM,2,SEPM,45.0,19.0,26.0,65
+Cervical cancer,GBM,2,SEPM-RAND,45.0,13.0,32.0,65
+Cervical cancer,GBM,2,TML,65.0,19.0,46.0,65
+Cervical cancer,GBM,3,SEPM,42.0,19.0,23.0,65
+Cervical cancer,GBM,3,SEPM-RAND,42.0,12.0,30.0,65
+Cervical cancer,GBM,3,TML,65.0,19.0,46.0,65
+Cervical cancer,GBM,4,SEPM,45.0,19.0,26.0,65
+Cervical cancer,GBM,4,SEPM-RAND,61.0,18.0,43.0,65
+Cervical cancer,GBM,4,TML,65.0,19.0,46.0,65
+Cervical cancer,GBM,5,SEPM,52.0,19.0,33.0,65
+Cervical cancer,GBM,5,SEPM-RAND,65.0,19.0,46.0,65
+Cervical cancer,GBM,5,TML,65.0,19.0,46.0,65
+Cervical cancer,GBM,6,SEPM,39.0,19.0,20.0,65
+Cervical cancer,GBM,6,SEPM-RAND,49.0,14.0,35.0,65
+Cervical cancer,GBM,6,TML,65.0,19.0,46.0,65
+Cervical cancer,GBM,7,SEPM,45.0,19.0,26.0,65
+Cervical cancer,GBM,7,SEPM-RAND,45.0,13.0,32.0,65
+Cervical cancer,GBM,7,TML,65.0,19.0,46.0,65
+Cervical cancer,GBM,8,SEPM,61.0,19.0,42.0,65
+Cervical cancer,GBM,8,SEPM-RAND,63.0,18.0,45.0,65
+Cervical cancer,GBM,8,TML,65.0,19.0,46.0,65
+Cervical cancer,GBM,9,SEPM,65.0,19.0,46.0,65
+Cervical cancer,GBM,9,SEPM-RAND,65.0,19.0,46.0,65
+Cervical cancer,GBM,9,TML,65.0,19.0,46.0,65
+Cervical cancer,Logistic Regression,0,SEPM,54.0,17.0,37.0,64
+Cervical cancer,Logistic Regression,0,SEPM-RAND,32.0,9.0,23.0,64
+Cervical cancer,Logistic Regression,0,TML,64.0,18.0,46.0,64
+Cervical cancer,Logistic Regression,1,SEPM,45.0,14.0,31.0,64
+Cervical cancer,Logistic Regression,1,SEPM-RAND,32.0,9.0,23.0,64
+Cervical cancer,Logistic Regression,1,TML,64.0,19.0,45.0,64
+Cervical cancer,Logistic Regression,2,SEPM,55.0,17.0,38.0,65
+Cervical cancer,Logistic Regression,2,SEPM-RAND,45.0,13.0,32.0,65
+Cervical cancer,Logistic Regression,2,TML,65.0,19.0,46.0,65
+Cervical cancer,Logistic Regression,3,SEPM,39.0,15.0,24.0,65
+Cervical cancer,Logistic Regression,3,SEPM-RAND,36.0,11.0,25.0,65
+Cervical cancer,Logistic Regression,3,TML,65.0,19.0,46.0,65
+Cervical cancer,Logistic Regression,4,SEPM,52.0,17.0,35.0,65
+Cervical cancer,Logistic Regression,4,SEPM-RAND,52.0,15.0,37.0,65
+Cervical cancer,Logistic Regression,4,TML,65.0,19.0,46.0,65
+Cervical cancer,Logistic Regression,5,SEPM,36.0,12.0,24.0,65
+Cervical cancer,Logistic Regression,5,SEPM-RAND,45.0,13.0,32.0,65
+Cervical cancer,Logistic Regression,5,TML,65.0,19.0,46.0,65
+Cervical cancer,Logistic Regression,6,SEPM,26.0,11.0,15.0,65
+Cervical cancer,Logistic Regression,6,SEPM-RAND,64.0,19.0,45.0,65
+Cervical cancer,Logistic Regression,6,TML,65.0,19.0,46.0,65
+Cervical cancer,Logistic Regression,7,SEPM,52.0,16.0,36.0,65
+Cervical cancer,Logistic Regression,7,SEPM-RAND,61.0,18.0,43.0,65
+Cervical cancer,Logistic Regression,7,TML,65.0,19.0,46.0,65
+Cervical cancer,Logistic Regression,8,SEPM,65.0,19.0,46.0,65
+Cervical cancer,Logistic Regression,8,SEPM-RAND,58.0,17.0,41.0,65
+Cervical cancer,Logistic Regression,8,TML,65.0,19.0,46.0,65
+Cervical cancer,Logistic Regression,9,SEPM,63.0,19.0,44.0,65
+Cervical cancer,Logistic Regression,9,SEPM-RAND,61.0,18.0,43.0,65
+Cervical cancer,Logistic Regression,9,TML,65.0,19.0,46.0,65
+Cervical cancer,Random Forest,0,SEPM,32.0,18.0,14.0,64
+Cervical cancer,Random Forest,0,SEPM-RAND,26.0,7.0,19.0,64
+Cervical cancer,Random Forest,0,TML,64.0,18.0,46.0,64
+Cervical cancer,Random Forest,1,SEPM,54.0,19.0,35.0,64
+Cervical cancer,Random Forest,1,SEPM-RAND,54.0,16.0,38.0,64
+Cervical cancer,Random Forest,1,TML,64.0,19.0,45.0,64
+Cervical cancer,Random Forest,2,SEPM,39.0,19.0,20.0,65
+Cervical cancer,Random Forest,2,SEPM-RAND,45.0,13.0,32.0,65
+Cervical cancer,Random Forest,2,TML,65.0,19.0,46.0,65
+Cervical cancer,Random Forest,3,SEPM,36.0,19.0,17.0,65
+Cervical cancer,Random Forest,3,SEPM-RAND,36.0,11.0,25.0,65
+Cervical cancer,Random Forest,3,TML,65.0,19.0,46.0,65
+Cervical cancer,Random Forest,4,SEPM,39.0,19.0,20.0,65
+Cervical cancer,Random Forest,4,SEPM-RAND,55.0,16.0,39.0,65
+Cervical cancer,Random Forest,4,TML,65.0,19.0,46.0,65
+Cervical cancer,Random Forest,5,SEPM,36.0,19.0,17.0,65
+Cervical cancer,Random Forest,5,SEPM-RAND,45.0,13.0,32.0,65
+Cervical cancer,Random Forest,5,TML,65.0,19.0,46.0,65
+Cervical cancer,Random Forest,6,SEPM,36.0,18.0,18.0,65
+Cervical cancer,Random Forest,6,SEPM-RAND,55.0,16.0,39.0,65
+Cervical cancer,Random Forest,6,TML,65.0,19.0,46.0,65
+Cervical cancer,Random Forest,7,SEPM,39.0,18.0,21.0,65
+Cervical cancer,Random Forest,7,SEPM-RAND,39.0,11.0,28.0,65
+Cervical cancer,Random Forest,7,TML,65.0,19.0,46.0,65
+Cervical cancer,Random Forest,8,SEPM,36.0,18.0,18.0,65
+Cervical cancer,Random Forest,8,SEPM-RAND,52.0,15.0,37.0,65
+Cervical cancer,Random Forest,8,TML,65.0,19.0,46.0,65
+Cervical cancer,Random Forest,9,SEPM,65.0,19.0,46.0,65
+Cervical cancer,Random Forest,9,SEPM-RAND,65.0,19.0,46.0,65
+Cervical cancer,Random Forest,9,TML,65.0,19.0,46.0,65
+Cervical cancer,SVM,0,SEPM,35.0,18.0,17.0,64
+Cervical cancer,SVM,0,SEPM-RAND,51.0,14.0,37.0,64
+Cervical cancer,SVM,0,TML,64.0,18.0,46.0,64
+Cervical cancer,SVM,1,SEPM,38.0,18.0,20.0,64
+Cervical cancer,SVM,1,SEPM-RAND,38.0,11.0,27.0,64
+Cervical cancer,SVM,1,TML,64.0,19.0,45.0,64
+Cervical cancer,SVM,2,SEPM,42.0,19.0,23.0,65
+Cervical cancer,SVM,2,SEPM-RAND,64.0,19.0,45.0,65
+Cervical cancer,SVM,2,TML,65.0,19.0,46.0,65
+Cervical cancer,SVM,3,SEPM,36.0,18.0,18.0,65
+Cervical cancer,SVM,3,SEPM-RAND,55.0,16.0,39.0,65
+Cervical cancer,SVM,3,TML,65.0,19.0,46.0,65
+Cervical cancer,SVM,4,SEPM,45.0,19.0,26.0,65
+Cervical cancer,SVM,4,SEPM-RAND,55.0,16.0,39.0,65
+Cervical cancer,SVM,4,TML,65.0,19.0,46.0,65
+Cervical cancer,SVM,5,SEPM,39.0,19.0,20.0,65
+Cervical cancer,SVM,5,SEPM-RAND,45.0,13.0,32.0,65
+Cervical cancer,SVM,5,TML,65.0,19.0,46.0,65
+Cervical cancer,SVM,6,SEPM,36.0,19.0,17.0,65
+Cervical cancer,SVM,6,SEPM-RAND,42.0,12.0,30.0,65
+Cervical cancer,SVM,6,TML,65.0,19.0,46.0,65
+Cervical cancer,SVM,7,SEPM,39.0,19.0,20.0,65
+Cervical cancer,SVM,7,SEPM-RAND,65.0,19.0,46.0,65
+Cervical cancer,SVM,7,TML,65.0,19.0,46.0,65
+Cervical cancer,SVM,8,SEPM,36.0,19.0,17.0,65
+Cervical cancer,SVM,8,SEPM-RAND,64.0,19.0,45.0,65
+Cervical cancer,SVM,8,TML,65.0,19.0,46.0,65
+Cervical cancer,SVM,9,SEPM,58.0,19.0,39.0,65
+Cervical cancer,SVM,9,SEPM-RAND,65.0,19.0,46.0,65
+Cervical cancer,SVM,9,TML,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,0,SEPM,54.0,16.0,38.0,64
+Cervical cancer,XGBoost,0,SEPM-RAND,64.0,18.0,46.0,64
+Cervical cancer,XGBoost,0,TML,64.0,18.0,46.0,64
+Cervical cancer,XGBoost,1,SEPM,27.0,18.0,9.0,64
+Cervical cancer,XGBoost,1,SEPM-RAND,64.0,19.0,45.0,64
+Cervical cancer,XGBoost,1,TML,64.0,19.0,45.0,64
+Cervical cancer,XGBoost,2,SEPM,55.0,16.0,39.0,65
+Cervical cancer,XGBoost,2,SEPM-RAND,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,2,TML,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,3,SEPM,61.0,17.0,44.0,65
+Cervical cancer,XGBoost,3,SEPM-RAND,63.0,18.0,45.0,65
+Cervical cancer,XGBoost,3,TML,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,4,SEPM,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,4,SEPM-RAND,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,4,TML,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,5,SEPM,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,5,SEPM-RAND,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,5,TML,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,6,SEPM,49.0,11.0,38.0,65
+Cervical cancer,XGBoost,6,SEPM-RAND,61.0,18.0,43.0,65
+Cervical cancer,XGBoost,6,TML,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,7,SEPM,63.0,18.0,45.0,65
+Cervical cancer,XGBoost,7,SEPM-RAND,45.0,13.0,32.0,65
+Cervical cancer,XGBoost,7,TML,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,8,SEPM,33.0,16.0,17.0,65
+Cervical cancer,XGBoost,8,SEPM-RAND,64.0,19.0,45.0,65
+Cervical cancer,XGBoost,8,TML,65.0,19.0,46.0,65
+Cervical cancer,XGBoost,9,SEPM,49.0,19.0,30.0,65
+Cervical cancer,XGBoost,9,SEPM-RAND,64.0,19.0,45.0,65
+Cervical cancer,XGBoost,9,TML,65.0,19.0,46.0,65
+Breast recurrence,GBM,0,SEPM,103.0,61.0,42.0,257
+Breast recurrence,GBM,0,SEPM-RAND,257.0,77.0,180.0,257
+Breast recurrence,GBM,0,TML,257.0,77.0,180.0,257
+Breast recurrence,GBM,1,SEPM,141.0,67.0,74.0,257
+Breast recurrence,GBM,1,SEPM-RAND,257.0,76.0,181.0,257
+Breast recurrence,GBM,1,TML,257.0,76.0,181.0,257
+Breast recurrence,GBM,2,SEPM,130.0,61.0,69.0,257
+Breast recurrence,GBM,2,SEPM-RAND,257.0,76.0,181.0,257
+Breast recurrence,GBM,2,TML,257.0,76.0,181.0,257
+Breast recurrence,GBM,3,SEPM,103.0,59.0,44.0,257
+Breast recurrence,GBM,3,SEPM-RAND,218.0,64.0,154.0,257
+Breast recurrence,GBM,3,TML,257.0,76.0,181.0,257
+Breast recurrence,GBM,4,SEPM,103.0,56.0,47.0,257
+Breast recurrence,GBM,4,SEPM-RAND,254.0,75.0,179.0,257
+Breast recurrence,GBM,4,TML,257.0,76.0,181.0,257
+Breast recurrence,GBM,5,SEPM,219.0,66.0,153.0,257
+Breast recurrence,GBM,5,SEPM-RAND,205.0,61.0,144.0,257
+Breast recurrence,GBM,5,TML,257.0,76.0,181.0,257
+Breast recurrence,GBM,6,SEPM,142.0,58.0,84.0,258
+Breast recurrence,GBM,6,SEPM-RAND,255.0,76.0,179.0,258
+Breast recurrence,GBM,6,TML,258.0,77.0,181.0,258
+Breast recurrence,GBM,7,SEPM,129.0,58.0,71.0,258
+Breast recurrence,GBM,7,SEPM-RAND,232.0,69.0,163.0,258
+Breast recurrence,GBM,7,TML,258.0,77.0,181.0,258
+Breast recurrence,GBM,8,SEPM,219.0,74.0,145.0,258
+Breast recurrence,GBM,8,SEPM-RAND,258.0,77.0,181.0,258
+Breast recurrence,GBM,8,TML,258.0,77.0,181.0,258
+Breast recurrence,GBM,9,SEPM,185.0,60.0,125.0,258
+Breast recurrence,GBM,9,SEPM-RAND,252.0,75.0,177.0,258
+Breast recurrence,GBM,9,TML,258.0,77.0,181.0,258
+Breast recurrence,Logistic Regression,0,SEPM,141.0,56.0,85.0,257
+Breast recurrence,Logistic Regression,0,SEPM-RAND,141.0,42.0,99.0,257
+Breast recurrence,Logistic Regression,0,TML,257.0,77.0,180.0,257
+Breast recurrence,Logistic Regression,1,SEPM,103.0,46.0,57.0,257
+Breast recurrence,Logistic Regression,1,SEPM-RAND,249.0,74.0,175.0,257
+Breast recurrence,Logistic Regression,1,TML,257.0,76.0,181.0,257
+Breast recurrence,Logistic Regression,2,SEPM,141.0,53.0,88.0,257
+Breast recurrence,Logistic Regression,2,SEPM-RAND,254.0,75.0,179.0,257
+Breast recurrence,Logistic Regression,2,TML,257.0,76.0,181.0,257
+Breast recurrence,Logistic Regression,3,SEPM,103.0,48.0,55.0,257
+Breast recurrence,Logistic Regression,3,SEPM-RAND,103.0,30.0,73.0,257
+Breast recurrence,Logistic Regression,3,TML,257.0,76.0,181.0,257
+Breast recurrence,Logistic Regression,4,SEPM,141.0,53.0,88.0,257
+Breast recurrence,Logistic Regression,4,SEPM-RAND,231.0,68.0,163.0,257
+Breast recurrence,Logistic Regression,4,TML,257.0,76.0,181.0,257
+Breast recurrence,Logistic Regression,5,SEPM,129.0,52.0,77.0,257
+Breast recurrence,Logistic Regression,5,SEPM-RAND,249.0,74.0,175.0,257
+Breast recurrence,Logistic Regression,5,TML,257.0,76.0,181.0,257
+Breast recurrence,Logistic Regression,6,SEPM,129.0,52.0,77.0,258
+Breast recurrence,Logistic Regression,6,SEPM-RAND,252.0,75.0,177.0,258
+Breast recurrence,Logistic Regression,6,TML,258.0,77.0,181.0,258
+Breast recurrence,Logistic Regression,7,SEPM,103.0,42.0,61.0,258
+Breast recurrence,Logistic Regression,7,SEPM-RAND,155.0,46.0,109.0,258
+Breast recurrence,Logistic Regression,7,TML,258.0,77.0,181.0,258
+Breast recurrence,Logistic Regression,8,SEPM,129.0,51.0,78.0,258
+Breast recurrence,Logistic Regression,8,SEPM-RAND,219.0,65.0,154.0,258
+Breast recurrence,Logistic Regression,8,TML,258.0,77.0,181.0,258
+Breast recurrence,Logistic Regression,9,SEPM,142.0,52.0,90.0,258
+Breast recurrence,Logistic Regression,9,SEPM-RAND,258.0,77.0,181.0,258
+Breast recurrence,Logistic Regression,9,TML,258.0,77.0,181.0,258
+Breast recurrence,Random Forest,0,SEPM,129.0,54.0,75.0,257
+Breast recurrence,Random Forest,0,SEPM-RAND,193.0,58.0,135.0,257
+Breast recurrence,Random Forest,0,TML,257.0,77.0,180.0,257
+Breast recurrence,Random Forest,1,SEPM,104.0,52.0,52.0,257
+Breast recurrence,Random Forest,1,SEPM-RAND,205.0,61.0,144.0,257
+Breast recurrence,Random Forest,1,TML,257.0,76.0,181.0,257
+Breast recurrence,Random Forest,2,SEPM,103.0,51.0,52.0,257
+Breast recurrence,Random Forest,2,SEPM-RAND,154.0,46.0,108.0,257
+Breast recurrence,Random Forest,2,TML,257.0,76.0,181.0,257
+Breast recurrence,Random Forest,3,SEPM,103.0,55.0,48.0,257
+Breast recurrence,Random Forest,3,SEPM-RAND,205.0,61.0,144.0,257
+Breast recurrence,Random Forest,3,TML,257.0,76.0,181.0,257
+Breast recurrence,Random Forest,4,SEPM,103.0,50.0,53.0,257
+Breast recurrence,Random Forest,4,SEPM-RAND,129.0,38.0,91.0,257
+Breast recurrence,Random Forest,4,TML,257.0,76.0,181.0,257
+Breast recurrence,Random Forest,5,SEPM,103.0,48.0,55.0,257
+Breast recurrence,Random Forest,5,SEPM-RAND,249.0,74.0,175.0,257
+Breast recurrence,Random Forest,5,TML,257.0,76.0,181.0,257
+Breast recurrence,Random Forest,6,SEPM,103.0,50.0,53.0,258
+Breast recurrence,Random Forest,6,SEPM-RAND,180.0,54.0,126.0,258
+Breast recurrence,Random Forest,6,TML,258.0,77.0,181.0,258
+Breast recurrence,Random Forest,7,SEPM,103.0,48.0,55.0,258
+Breast recurrence,Random Forest,7,SEPM-RAND,129.0,38.0,91.0,258
+Breast recurrence,Random Forest,7,TML,258.0,77.0,181.0,258
+Breast recurrence,Random Forest,8,SEPM,103.0,51.0,52.0,258
+Breast recurrence,Random Forest,8,SEPM-RAND,252.0,75.0,177.0,258
+Breast recurrence,Random Forest,8,TML,258.0,77.0,181.0,258
+Breast recurrence,Random Forest,9,SEPM,129.0,51.0,78.0,258
+Breast recurrence,Random Forest,9,SEPM-RAND,193.0,58.0,135.0,258
+Breast recurrence,Random Forest,9,TML,258.0,77.0,181.0,258
+Breast recurrence,SVM,0,SEPM,249.0,71.0,178.0,257
+Breast recurrence,SVM,0,SEPM-RAND,257.0,77.0,180.0,257
+Breast recurrence,SVM,0,TML,257.0,77.0,180.0,257
+Breast recurrence,SVM,1,SEPM,104.0,53.0,51.0,257
+Breast recurrence,SVM,1,SEPM-RAND,231.0,68.0,163.0,257
+Breast recurrence,SVM,1,TML,257.0,76.0,181.0,257
+Breast recurrence,SVM,2,SEPM,103.0,55.0,48.0,257
+Breast recurrence,SVM,2,SEPM-RAND,251.0,74.0,177.0,257
+Breast recurrence,SVM,2,TML,257.0,76.0,181.0,257
+Breast recurrence,SVM,3,SEPM,103.0,55.0,48.0,257
+Breast recurrence,SVM,3,SEPM-RAND,167.0,49.0,118.0,257
+Breast recurrence,SVM,3,TML,257.0,76.0,181.0,257
+Breast recurrence,SVM,4,SEPM,141.0,58.0,83.0,257
+Breast recurrence,SVM,4,SEPM-RAND,254.0,75.0,179.0,257
+Breast recurrence,SVM,4,TML,257.0,76.0,181.0,257
+Breast recurrence,SVM,5,SEPM,103.0,51.0,52.0,257
+Breast recurrence,SVM,5,SEPM-RAND,249.0,74.0,175.0,257
+Breast recurrence,SVM,5,TML,257.0,76.0,181.0,257
+Breast recurrence,SVM,6,SEPM,103.0,53.0,50.0,258
+Breast recurrence,SVM,6,SEPM-RAND,250.0,75.0,175.0,258
+Breast recurrence,SVM,6,TML,258.0,77.0,181.0,258
+Breast recurrence,SVM,7,SEPM,104.0,51.0,53.0,258
+Breast recurrence,SVM,7,SEPM-RAND,155.0,46.0,109.0,258
+Breast recurrence,SVM,7,TML,258.0,77.0,181.0,258
+Breast recurrence,SVM,8,SEPM,103.0,53.0,50.0,258
+Breast recurrence,SVM,8,SEPM-RAND,255.0,76.0,179.0,258
+Breast recurrence,SVM,8,TML,258.0,77.0,181.0,258
+Breast recurrence,SVM,9,SEPM,103.0,53.0,50.0,258
+Breast recurrence,SVM,9,SEPM-RAND,255.0,76.0,179.0,258
+Breast recurrence,SVM,9,TML,258.0,77.0,181.0,258
+Breast recurrence,XGBoost,0,SEPM,167.0,60.0,107.0,257
+Breast recurrence,XGBoost,0,SEPM-RAND,129.0,39.0,90.0,257
+Breast recurrence,XGBoost,0,TML,257.0,77.0,180.0,257
+Breast recurrence,XGBoost,1,SEPM,251.0,74.0,177.0,257
+Breast recurrence,XGBoost,1,SEPM-RAND,249.0,74.0,175.0,257
+Breast recurrence,XGBoost,1,TML,257.0,76.0,181.0,257
+Breast recurrence,XGBoost,2,SEPM,103.0,42.0,61.0,257
+Breast recurrence,XGBoost,2,SEPM-RAND,154.0,46.0,108.0,257
+Breast recurrence,XGBoost,2,TML,257.0,76.0,181.0,257
+Breast recurrence,XGBoost,3,SEPM,205.0,64.0,141.0,257
+Breast recurrence,XGBoost,3,SEPM-RAND,167.0,49.0,118.0,257
+Breast recurrence,XGBoost,3,TML,257.0,76.0,181.0,257
+Breast recurrence,XGBoost,4,SEPM,129.0,51.0,78.0,257
+Breast recurrence,XGBoost,4,SEPM-RAND,129.0,38.0,91.0,257
+Breast recurrence,XGBoost,4,TML,257.0,76.0,181.0,257
+Breast recurrence,XGBoost,5,SEPM,103.0,43.0,60.0,257
+Breast recurrence,XGBoost,5,SEPM-RAND,142.0,42.0,100.0,257
+Breast recurrence,XGBoost,5,TML,257.0,76.0,181.0,257
+Breast recurrence,XGBoost,6,SEPM,155.0,53.0,102.0,258
+Breast recurrence,XGBoost,6,SEPM-RAND,129.0,38.0,91.0,258
+Breast recurrence,XGBoost,6,TML,258.0,77.0,181.0,258
+Breast recurrence,XGBoost,7,SEPM,142.0,51.0,91.0,258
+Breast recurrence,XGBoost,7,SEPM-RAND,252.0,75.0,177.0,258
+Breast recurrence,XGBoost,7,TML,258.0,77.0,181.0,258
+Breast recurrence,XGBoost,8,SEPM,129.0,51.0,78.0,258
+Breast recurrence,XGBoost,8,SEPM-RAND,258.0,77.0,181.0,258
+Breast recurrence,XGBoost,8,TML,258.0,77.0,181.0,258
+Breast recurrence,XGBoost,9,SEPM,103.0,42.0,61.0,258
+Breast recurrence,XGBoost,9,SEPM-RAND,258.0,77.0,181.0,258
+Breast recurrence,XGBoost,9,TML,258.0,77.0,181.0,258
+Pima diabetes,GBM,0,SEPM,658.0,232.0,426.0,691
+Pima diabetes,GBM,0,SEPM-RAND,553.0,193.0,360.0,691
+Pima diabetes,GBM,0,TML,691.0,241.0,450.0,691
+Pima diabetes,GBM,1,SEPM,415.0,145.0,270.0,691
+Pima diabetes,GBM,1,SEPM-RAND,656.0,229.0,427.0,691
+Pima diabetes,GBM,1,TML,691.0,241.0,450.0,691
+Pima diabetes,GBM,2,SEPM,449.0,162.0,287.0,691
+Pima diabetes,GBM,2,SEPM-RAND,380.0,133.0,247.0,691
+Pima diabetes,GBM,2,TML,691.0,241.0,450.0,691
+Pima diabetes,GBM,3,SEPM,553.0,206.0,347.0,691
+Pima diabetes,GBM,3,SEPM-RAND,622.0,217.0,405.0,691
+Pima diabetes,GBM,3,TML,691.0,241.0,450.0,691
+Pima diabetes,GBM,4,SEPM,684.0,239.0,445.0,691
+Pima diabetes,GBM,4,SEPM-RAND,684.0,239.0,445.0,691
+Pima diabetes,GBM,4,TML,691.0,241.0,450.0,691
+Pima diabetes,GBM,5,SEPM,587.0,221.0,366.0,691
+Pima diabetes,GBM,5,SEPM-RAND,691.0,241.0,450.0,691
+Pima diabetes,GBM,5,TML,691.0,241.0,450.0,691
+Pima diabetes,GBM,6,SEPM,587.0,215.0,372.0,691
+Pima diabetes,GBM,6,SEPM-RAND,691.0,241.0,450.0,691
+Pima diabetes,GBM,6,TML,691.0,241.0,450.0,691
+Pima diabetes,GBM,7,SEPM,380.0,142.0,238.0,691
+Pima diabetes,GBM,7,SEPM-RAND,587.0,205.0,382.0,691
+Pima diabetes,GBM,7,TML,691.0,241.0,450.0,691
+Pima diabetes,GBM,8,SEPM,622.0,220.0,402.0,692
+Pima diabetes,GBM,8,SEPM-RAND,685.0,240.0,445.0,692
+Pima diabetes,GBM,8,TML,692.0,242.0,450.0,692
+Pima diabetes,GBM,9,SEPM,519.0,196.0,323.0,692
+Pima diabetes,GBM,9,SEPM-RAND,678.0,237.0,441.0,692
+Pima diabetes,GBM,9,TML,692.0,242.0,450.0,692
+Pima diabetes,Logistic Regression,0,SEPM,415.0,158.0,257.0,691
+Pima diabetes,Logistic Regression,0,SEPM-RAND,346.0,121.0,225.0,691
+Pima diabetes,Logistic Regression,0,TML,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,1,SEPM,677.0,237.0,440.0,691
+Pima diabetes,Logistic Regression,1,SEPM-RAND,622.0,217.0,405.0,691
+Pima diabetes,Logistic Regression,1,TML,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,2,SEPM,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,2,SEPM-RAND,484.0,169.0,315.0,691
+Pima diabetes,Logistic Regression,2,TML,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,3,SEPM,622.0,214.0,408.0,691
+Pima diabetes,Logistic Regression,3,SEPM-RAND,415.0,145.0,270.0,691
+Pima diabetes,Logistic Regression,3,TML,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,4,SEPM,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,4,SEPM-RAND,518.0,181.0,337.0,691
+Pima diabetes,Logistic Regression,4,TML,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,5,SEPM,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,5,SEPM-RAND,518.0,181.0,337.0,691
+Pima diabetes,Logistic Regression,5,TML,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,6,SEPM,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,6,SEPM-RAND,415.0,145.0,270.0,691
+Pima diabetes,Logistic Regression,6,TML,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,7,SEPM,684.0,240.0,444.0,691
+Pima diabetes,Logistic Regression,7,SEPM-RAND,684.0,239.0,445.0,691
+Pima diabetes,Logistic Regression,7,TML,691.0,241.0,450.0,691
+Pima diabetes,Logistic Regression,8,SEPM,692.0,242.0,450.0,692
+Pima diabetes,Logistic Regression,8,SEPM-RAND,685.0,240.0,445.0,692
+Pima diabetes,Logistic Regression,8,TML,692.0,242.0,450.0,692
+Pima diabetes,Logistic Regression,9,SEPM,671.0,234.0,437.0,692
+Pima diabetes,Logistic Regression,9,SEPM-RAND,519.0,181.0,338.0,692
+Pima diabetes,Logistic Regression,9,TML,692.0,242.0,450.0,692
+Pima diabetes,Random Forest,0,SEPM,277.0,129.0,148.0,691
+Pima diabetes,Random Forest,0,SEPM-RAND,484.0,169.0,315.0,691
+Pima diabetes,Random Forest,0,TML,691.0,241.0,450.0,691
+Pima diabetes,Random Forest,1,SEPM,622.0,241.0,381.0,691
+Pima diabetes,Random Forest,1,SEPM-RAND,346.0,121.0,225.0,691
+Pima diabetes,Random Forest,1,TML,691.0,241.0,450.0,691
+Pima diabetes,Random Forest,2,SEPM,587.0,240.0,347.0,691
+Pima diabetes,Random Forest,2,SEPM-RAND,346.0,121.0,225.0,691
+Pima diabetes,Random Forest,2,TML,691.0,241.0,450.0,691
+Pima diabetes,Random Forest,3,SEPM,415.0,236.0,179.0,691
+Pima diabetes,Random Forest,3,SEPM-RAND,691.0,241.0,450.0,691
+Pima diabetes,Random Forest,3,TML,691.0,241.0,450.0,691
+Pima diabetes,Random Forest,4,SEPM,484.0,181.0,303.0,691
+Pima diabetes,Random Forest,4,SEPM-RAND,622.0,217.0,405.0,691
+Pima diabetes,Random Forest,4,TML,691.0,241.0,450.0,691
+Pima diabetes,Random Forest,5,SEPM,380.0,233.0,147.0,691
+Pima diabetes,Random Forest,5,SEPM-RAND,677.0,236.0,441.0,691
+Pima diabetes,Random Forest,5,TML,691.0,241.0,450.0,691
+Pima diabetes,Random Forest,6,SEPM,518.0,238.0,280.0,691
+Pima diabetes,Random Forest,6,SEPM-RAND,415.0,145.0,270.0,691
+Pima diabetes,Random Forest,6,TML,691.0,241.0,450.0,691
+Pima diabetes,Random Forest,7,SEPM,484.0,235.0,249.0,691
+Pima diabetes,Random Forest,7,SEPM-RAND,449.0,157.0,292.0,691
+Pima diabetes,Random Forest,7,TML,691.0,241.0,450.0,691
+Pima diabetes,Random Forest,8,SEPM,588.0,239.0,349.0,692
+Pima diabetes,Random Forest,8,SEPM-RAND,553.0,193.0,360.0,692
+Pima diabetes,Random Forest,8,TML,692.0,242.0,450.0,692
+Pima diabetes,Random Forest,9,SEPM,588.0,209.0,379.0,692
+Pima diabetes,Random Forest,9,SEPM-RAND,685.0,240.0,445.0,692
+Pima diabetes,Random Forest,9,TML,692.0,242.0,450.0,692
+Pima diabetes,SVM,0,SEPM,691.0,241.0,450.0,691
+Pima diabetes,SVM,0,SEPM-RAND,622.0,217.0,405.0,691
+Pima diabetes,SVM,0,TML,691.0,241.0,450.0,691
+Pima diabetes,SVM,1,SEPM,277.0,151.0,126.0,691
+Pima diabetes,SVM,1,SEPM-RAND,518.0,181.0,337.0,691
+Pima diabetes,SVM,1,TML,691.0,241.0,450.0,691
+Pima diabetes,SVM,2,SEPM,691.0,241.0,450.0,691
+Pima diabetes,SVM,2,SEPM-RAND,346.0,121.0,225.0,691
+Pima diabetes,SVM,2,TML,691.0,241.0,450.0,691
+Pima diabetes,SVM,3,SEPM,449.0,206.0,243.0,691
+Pima diabetes,SVM,3,SEPM-RAND,691.0,241.0,450.0,691
+Pima diabetes,SVM,3,TML,691.0,241.0,450.0,691
+Pima diabetes,SVM,4,SEPM,677.0,236.0,441.0,691
+Pima diabetes,SVM,4,SEPM-RAND,518.0,181.0,337.0,691
+Pima diabetes,SVM,4,TML,691.0,241.0,450.0,691
+Pima diabetes,SVM,5,SEPM,677.0,235.0,442.0,691
+Pima diabetes,SVM,5,SEPM-RAND,684.0,239.0,445.0,691
+Pima diabetes,SVM,5,TML,691.0,241.0,450.0,691
+Pima diabetes,SVM,6,SEPM,670.0,235.0,435.0,691
+Pima diabetes,SVM,6,SEPM-RAND,518.0,181.0,337.0,691
+Pima diabetes,SVM,6,TML,691.0,241.0,450.0,691
+Pima diabetes,SVM,7,SEPM,677.0,237.0,440.0,691
+Pima diabetes,SVM,7,SEPM-RAND,670.0,234.0,436.0,691
+Pima diabetes,SVM,7,TML,691.0,241.0,450.0,691
+Pima diabetes,SVM,8,SEPM,346.0,174.0,172.0,692
+Pima diabetes,SVM,8,SEPM-RAND,519.0,181.0,338.0,692
+Pima diabetes,SVM,8,TML,692.0,242.0,450.0,692
+Pima diabetes,SVM,9,SEPM,692.0,242.0,450.0,692
+Pima diabetes,SVM,9,SEPM-RAND,415.0,145.0,270.0,692
+Pima diabetes,SVM,9,TML,692.0,242.0,450.0,692
+Pima diabetes,XGBoost,0,SEPM,518.0,175.0,343.0,691
+Pima diabetes,XGBoost,0,SEPM-RAND,484.0,169.0,315.0,691
+Pima diabetes,XGBoost,0,TML,691.0,241.0,450.0,691
+Pima diabetes,XGBoost,1,SEPM,484.0,160.0,324.0,691
+Pima diabetes,XGBoost,1,SEPM-RAND,622.0,217.0,405.0,691
+Pima diabetes,XGBoost,1,TML,691.0,241.0,450.0,691
+Pima diabetes,XGBoost,2,SEPM,380.0,128.0,252.0,691
+Pima diabetes,XGBoost,2,SEPM-RAND,691.0,241.0,450.0,691
+Pima diabetes,XGBoost,2,TML,691.0,241.0,450.0,691
+Pima diabetes,XGBoost,3,SEPM,380.0,138.0,242.0,691
+Pima diabetes,XGBoost,3,SEPM-RAND,670.0,234.0,436.0,691
+Pima diabetes,XGBoost,3,TML,691.0,241.0,450.0,691
+Pima diabetes,XGBoost,4,SEPM,484.0,160.0,324.0,691
+Pima diabetes,XGBoost,4,SEPM-RAND,691.0,241.0,450.0,691
+Pima diabetes,XGBoost,4,TML,691.0,241.0,450.0,691
+Pima diabetes,XGBoost,5,SEPM,380.0,140.0,240.0,691
+Pima diabetes,XGBoost,5,SEPM-RAND,684.0,239.0,445.0,691
+Pima diabetes,XGBoost,5,TML,691.0,241.0,450.0,691
+Pima diabetes,XGBoost,6,SEPM,380.0,134.0,246.0,691
+Pima diabetes,XGBoost,6,SEPM-RAND,587.0,205.0,382.0,691
+Pima diabetes,XGBoost,6,TML,691.0,241.0,450.0,691
+Pima diabetes,XGBoost,7,SEPM,380.0,127.0,253.0,691
+Pima diabetes,XGBoost,7,SEPM-RAND,684.0,239.0,445.0,691
+Pima diabetes,XGBoost,7,TML,691.0,241.0,450.0,691
+Pima diabetes,XGBoost,8,SEPM,519.0,184.0,335.0,692
+Pima diabetes,XGBoost,8,SEPM-RAND,692.0,242.0,450.0,692
+Pima diabetes,XGBoost,8,TML,692.0,242.0,450.0,692
+Pima diabetes,XGBoost,9,SEPM,519.0,180.0,339.0,692
+Pima diabetes,XGBoost,9,SEPM-RAND,484.0,169.0,315.0,692
+Pima diabetes,XGBoost,9,TML,692.0,242.0,450.0,692
+Haberman,GBM,0,SEPM,110.0,43.0,67.0,275
+Haberman,GBM,0,SEPM-RAND,138.0,37.0,101.0,275
+Haberman,GBM,0,TML,275.0,73.0,202.0,275
+Haberman,GBM,1,SEPM,138.0,51.0,87.0,275
+Haberman,GBM,1,SEPM-RAND,138.0,37.0,101.0,275
+Haberman,GBM,1,TML,275.0,73.0,202.0,275
+Haberman,GBM,2,SEPM,110.0,72.0,38.0,275
+Haberman,GBM,2,SEPM-RAND,151.0,40.0,111.0,275
+Haberman,GBM,2,TML,275.0,73.0,202.0,275
+Haberman,GBM,3,SEPM,151.0,71.0,80.0,275
+Haberman,GBM,3,SEPM-RAND,139.0,37.0,102.0,275
+Haberman,GBM,3,TML,275.0,73.0,202.0,275
+Haberman,GBM,4,SEPM,110.0,46.0,64.0,275
+Haberman,GBM,4,SEPM-RAND,165.0,44.0,121.0,275
+Haberman,GBM,4,TML,275.0,73.0,202.0,275
+Haberman,GBM,5,SEPM,110.0,48.0,62.0,275
+Haberman,GBM,5,SEPM-RAND,151.0,40.0,111.0,275
+Haberman,GBM,5,TML,275.0,72.0,203.0,275
+Haberman,GBM,6,SEPM,138.0,64.0,74.0,276
+Haberman,GBM,6,SEPM-RAND,221.0,58.0,163.0,276
+Haberman,GBM,6,TML,276.0,73.0,203.0,276
+Haberman,GBM,7,SEPM,138.0,64.0,74.0,276
+Haberman,GBM,7,SEPM-RAND,207.0,55.0,152.0,276
+Haberman,GBM,7,TML,276.0,73.0,203.0,276
+Haberman,GBM,8,SEPM,111.0,65.0,46.0,276
+Haberman,GBM,8,SEPM-RAND,276.0,73.0,203.0,276
+Haberman,GBM,8,TML,276.0,73.0,203.0,276
+Haberman,GBM,9,SEPM,152.0,70.0,82.0,276
+Haberman,GBM,9,SEPM-RAND,193.0,51.0,142.0,276
+Haberman,GBM,9,TML,276.0,73.0,203.0,276
+Haberman,Logistic Regression,0,SEPM,269.0,70.0,199.0,275
+Haberman,Logistic Regression,0,SEPM-RAND,138.0,37.0,101.0,275
+Haberman,Logistic Regression,0,TML,275.0,73.0,202.0,275
+Haberman,Logistic Regression,1,SEPM,269.0,69.0,200.0,275
+Haberman,Logistic Regression,1,SEPM-RAND,111.0,29.0,82.0,275
+Haberman,Logistic Regression,1,TML,275.0,73.0,202.0,275
+Haberman,Logistic Regression,2,SEPM,269.0,70.0,199.0,275
+Haberman,Logistic Regression,2,SEPM-RAND,272.0,72.0,200.0,275
+Haberman,Logistic Regression,2,TML,275.0,73.0,202.0,275
+Haberman,Logistic Regression,3,SEPM,275.0,73.0,202.0,275
+Haberman,Logistic Regression,3,SEPM-RAND,233.0,62.0,171.0,275
+Haberman,Logistic Regression,3,TML,275.0,73.0,202.0,275
+Haberman,Logistic Regression,4,SEPM,110.0,36.0,74.0,275
+Haberman,Logistic Regression,4,SEPM-RAND,110.0,29.0,81.0,275
+Haberman,Logistic Regression,4,TML,275.0,73.0,202.0,275
+Haberman,Logistic Regression,5,SEPM,193.0,51.0,142.0,275
+Haberman,Logistic Regression,5,SEPM-RAND,193.0,51.0,142.0,275
+Haberman,Logistic Regression,5,TML,275.0,72.0,203.0,275
+Haberman,Logistic Regression,6,SEPM,276.0,73.0,203.0,276
+Haberman,Logistic Regression,6,SEPM-RAND,111.0,29.0,82.0,276
+Haberman,Logistic Regression,6,TML,276.0,73.0,203.0,276
+Haberman,Logistic Regression,7,SEPM,276.0,73.0,203.0,276
+Haberman,Logistic Regression,7,SEPM-RAND,138.0,36.0,102.0,276
+Haberman,Logistic Regression,7,TML,276.0,73.0,203.0,276
+Haberman,Logistic Regression,8,SEPM,111.0,36.0,75.0,276
+Haberman,Logistic Regression,8,SEPM-RAND,111.0,29.0,82.0,276
+Haberman,Logistic Regression,8,TML,276.0,73.0,203.0,276
+Haberman,Logistic Regression,9,SEPM,276.0,73.0,203.0,276
+Haberman,Logistic Regression,9,SEPM-RAND,111.0,29.0,82.0,276
+Haberman,Logistic Regression,9,TML,276.0,73.0,203.0,276
+Haberman,Random Forest,0,SEPM,111.0,41.0,70.0,275
+Haberman,Random Forest,0,SEPM-RAND,138.0,37.0,101.0,275
+Haberman,Random Forest,0,TML,275.0,73.0,202.0,275
+Haberman,Random Forest,1,SEPM,110.0,47.0,63.0,275
+Haberman,Random Forest,1,SEPM-RAND,110.0,29.0,81.0,275
+Haberman,Random Forest,1,TML,275.0,73.0,202.0,275
+Haberman,Random Forest,2,SEPM,139.0,51.0,88.0,275
+Haberman,Random Forest,2,SEPM-RAND,110.0,29.0,81.0,275
+Haberman,Random Forest,2,TML,275.0,73.0,202.0,275
+Haberman,Random Forest,3,SEPM,110.0,45.0,65.0,275
+Haberman,Random Forest,3,SEPM-RAND,206.0,55.0,151.0,275
+Haberman,Random Forest,3,TML,275.0,73.0,202.0,275
+Haberman,Random Forest,4,SEPM,138.0,49.0,89.0,275
+Haberman,Random Forest,4,SEPM-RAND,275.0,73.0,202.0,275
+Haberman,Random Forest,4,TML,275.0,73.0,202.0,275
+Haberman,Random Forest,5,SEPM,110.0,47.0,63.0,275
+Haberman,Random Forest,5,SEPM-RAND,206.0,54.0,152.0,275
+Haberman,Random Forest,5,TML,275.0,72.0,203.0,275
+Haberman,Random Forest,6,SEPM,112.0,44.0,68.0,276
+Haberman,Random Forest,6,SEPM-RAND,112.0,30.0,82.0,276
+Haberman,Random Forest,6,TML,276.0,73.0,203.0,276
+Haberman,Random Forest,7,SEPM,112.0,44.0,68.0,276
+Haberman,Random Forest,7,SEPM-RAND,152.0,40.0,112.0,276
+Haberman,Random Forest,7,TML,276.0,73.0,203.0,276
+Haberman,Random Forest,8,SEPM,111.0,43.0,68.0,276
+Haberman,Random Forest,8,SEPM-RAND,267.0,71.0,196.0,276
+Haberman,Random Forest,8,TML,276.0,73.0,203.0,276
+Haberman,Random Forest,9,SEPM,112.0,47.0,65.0,276
+Haberman,Random Forest,9,SEPM-RAND,112.0,30.0,82.0,276
+Haberman,Random Forest,9,TML,276.0,73.0,203.0,276
+Haberman,SVM,0,SEPM,269.0,72.0,197.0,275
+Haberman,SVM,0,SEPM-RAND,110.0,29.0,81.0,275
+Haberman,SVM,0,TML,275.0,73.0,202.0,275
+Haberman,SVM,1,SEPM,192.0,56.0,136.0,275
+Haberman,SVM,1,SEPM-RAND,110.0,29.0,81.0,275
+Haberman,SVM,1,TML,275.0,73.0,202.0,275
+Haberman,SVM,2,SEPM,272.0,73.0,199.0,275
+Haberman,SVM,2,SEPM-RAND,192.0,51.0,141.0,275
+Haberman,SVM,2,TML,275.0,73.0,202.0,275
+Haberman,SVM,3,SEPM,110.0,40.0,70.0,275
+Haberman,SVM,3,SEPM-RAND,110.0,29.0,81.0,275
+Haberman,SVM,3,TML,275.0,73.0,202.0,275
+Haberman,SVM,4,SEPM,247.0,68.0,179.0,275
+Haberman,SVM,4,SEPM-RAND,275.0,73.0,202.0,275
+Haberman,SVM,4,TML,275.0,73.0,202.0,275
+Haberman,SVM,5,SEPM,192.0,58.0,134.0,275
+Haberman,SVM,5,SEPM-RAND,138.0,36.0,102.0,275
+Haberman,SVM,5,TML,275.0,72.0,203.0,275
+Haberman,SVM,6,SEPM,112.0,40.0,72.0,276
+Haberman,SVM,6,SEPM-RAND,138.0,36.0,102.0,276
+Haberman,SVM,6,TML,276.0,73.0,203.0,276
+Haberman,SVM,7,SEPM,138.0,46.0,92.0,276
+Haberman,SVM,7,SEPM-RAND,207.0,55.0,152.0,276
+Haberman,SVM,7,TML,276.0,73.0,203.0,276
+Haberman,SVM,8,SEPM,152.0,49.0,103.0,276
+Haberman,SVM,8,SEPM-RAND,166.0,44.0,122.0,276
+Haberman,SVM,8,TML,276.0,73.0,203.0,276
+Haberman,SVM,9,SEPM,193.0,54.0,139.0,276
+Haberman,SVM,9,SEPM-RAND,166.0,44.0,122.0,276
+Haberman,SVM,9,TML,276.0,73.0,203.0,276
+Haberman,XGBoost,0,SEPM,151.0,40.0,111.0,275
+Haberman,XGBoost,0,SEPM-RAND,138.0,37.0,101.0,275
+Haberman,XGBoost,0,TML,275.0,73.0,202.0,275
+Haberman,XGBoost,1,SEPM,151.0,43.0,108.0,275
+Haberman,XGBoost,1,SEPM-RAND,110.0,29.0,81.0,275
+Haberman,XGBoost,1,TML,275.0,73.0,202.0,275
+Haberman,XGBoost,2,SEPM,110.0,32.0,78.0,275
+Haberman,XGBoost,2,SEPM-RAND,151.0,40.0,111.0,275
+Haberman,XGBoost,2,TML,275.0,73.0,202.0,275
+Haberman,XGBoost,3,SEPM,110.0,27.0,83.0,275
+Haberman,XGBoost,3,SEPM-RAND,138.0,37.0,101.0,275
+Haberman,XGBoost,3,TML,275.0,73.0,202.0,275
+Haberman,XGBoost,4,SEPM,179.0,53.0,126.0,275
+Haberman,XGBoost,4,SEPM-RAND,138.0,37.0,101.0,275
+Haberman,XGBoost,4,TML,275.0,73.0,202.0,275
+Haberman,XGBoost,5,SEPM,110.0,33.0,77.0,275
+Haberman,XGBoost,5,SEPM-RAND,179.0,47.0,132.0,275
+Haberman,XGBoost,5,TML,275.0,72.0,203.0,275
+Haberman,XGBoost,6,SEPM,166.0,48.0,118.0,276
+Haberman,XGBoost,6,SEPM-RAND,152.0,40.0,112.0,276
+Haberman,XGBoost,6,TML,276.0,73.0,203.0,276
+Haberman,XGBoost,7,SEPM,152.0,44.0,108.0,276
+Haberman,XGBoost,7,SEPM-RAND,234.0,62.0,172.0,276
+Haberman,XGBoost,7,TML,276.0,73.0,203.0,276
+Haberman,XGBoost,8,SEPM,139.0,38.0,101.0,276
+Haberman,XGBoost,8,SEPM-RAND,179.0,47.0,132.0,276
+Haberman,XGBoost,8,TML,276.0,73.0,203.0,276
+Haberman,XGBoost,9,SEPM,193.0,63.0,130.0,276
+Haberman,XGBoost,9,SEPM-RAND,193.0,51.0,142.0,276
+Haberman,XGBoost,9,TML,276.0,73.0,203.0,276
