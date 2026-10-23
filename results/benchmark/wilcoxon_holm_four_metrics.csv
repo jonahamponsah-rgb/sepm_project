@@ -1,0 +1,5 @@
+metric,n_datasets,mean_SEPM_minus_TMC,W,p_exact,rank_biserial,p_holm_four_metrics
+f1,4,-0.027765010376250003,0.0,0.125,-1.0,0.5
+balanced_accuracy,4,-0.0092687369995,0.0,0.125,-1.0,0.5
+ece,4,-0.047661057284250005,0.0,0.125,-1.0,0.5
+brier,4,-0.02719890989825,0.0,0.125,-1.0,0.5
